@@ -1,0 +1,150 @@
+/* MANUAL EDIT STYLING FOR ESMS HANDBOOK */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 20mm;
+    color: #333;
+}
+
+h1 {
+    font-size: 14pt;
+    color: #2c3e50;
+    border-bottom: 1px solid #3498db;
+    padding-bottom: 8px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 12pt;
+    color: #2c3e50;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 11pt;
+    color: #2c3e50;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 10pt;
+    color: #2c3e50;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+/* IMPROVED LIST STYLING */
+ul, ol {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+/* NESTED LISTS */
+ul ul li {
+    list-style-type: circle;
+}
+
+ul ul ul li {
+    list-style-type: square;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+
+/* CAPTIONS */
+img + p {
+    text-align: center;
+    font-style: italic;
+    font-size: 9pt;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* TABLES */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 9pt;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* CODE */
+code {
+    font-family: 'Courier New', monospace;
+    background-color: #f8f8f8;
+    padding: 1px 3px;
+    border-radius: 2px;
+    font-size: 9pt;
+}
+
+/* BLOCKQUOTES */
+blockquote {
+    border-left: 2px solid #3498db;
+    margin: 12px 0;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    font-size: 9pt;
+}
+
+/* PAGE BREAKS */
+.page-break {
+    page-break-before: always;
+}
+
+/* TABLE OF CONTENTS */
+.toc {
+    background-color: #f8f9fa;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 12px 0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    font-size: 8pt;
+    color: #666;
+}

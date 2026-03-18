@@ -1,0 +1,17 @@
+
+flowchart TD
+    A[Identify Hazards] --> B[Assess Risks]
+    B --> C[Evaluate Significance]
+    C --> D{Acceptable?}
+    D -->|Yes| E[Monitor]
+    D -->|No| F[Develop Controls]
+    F --> G[Implement Controls]
+    G --> H[Monitor Effectiveness]
+    H --> I{Effective?}
+    I -->|Yes| E
+    I -->|No| J[Review Controls]
+    J --> F
+
+    style A fill:#FFF3CD
+    style E fill:#D1ECF1
+    style F fill:#F8D7DA

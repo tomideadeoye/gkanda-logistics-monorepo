@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="3600"
+   height="3800"
+   viewBox="0 0 3600 3800"
+   version="1.1"
+   id="svg26"
+   sodipodi:docname="D-02_Typical_Fence_Bay.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview26"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.16400354"
+     inkscape:cx="2112.7593"
+     inkscape:cy="1789.5955"
+     inkscape:window-width="1728"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg26" />
+  <defs
+     id="defs1">
+    <marker
+       id="arrow"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#222"
+         id="path1" />
+    </marker>
+    <style
+       id="style1">
+      .line{stroke:#222;stroke-width:6;fill:none}
+      .thin{stroke:#555;stroke-width:3;fill:none}
+      .dim{stroke:#222;stroke-width:4;fill:none;marker-start:url(#arrow);marker-end:url(#arrow)}
+      .txt{font: 48px sans-serif; fill:#111}
+      .title{font: 56px sans-serif; font-weight:700}
+      .note{font: 40px sans-serif; fill:#333}
+      .mesh{stroke:#777;stroke-width:2}
+    </style>
+  </defs>
+  <!-- Title block -->
+  <rect
+     x="100"
+     y="3300"
+     width="3400"
+     height="360"
+     fill="#fff"
+     stroke="#222"
+     stroke-width="4"
+     id="rect1" />
+  <text
+     x="140"
+     y="3400"
+     class="title"
+     id="text1">D-02 Typical Fence Bay – Elevation (Not to scale)</text>
+  <text
+     x="140"
+     y="3460"
+     class="txt"
+     id="text2">Posts: SHS 75×75×5 mm | Bay: 2,400 mm c/c | Mesh: 2,700 mm high, 50×50×4.0 mm</text>
+  <text
+     x="140"
+     y="3520"
+     class="txt"
+     id="text3">Footing: 450×500×600 mm (C25/30) | Ground clearance: 50 mm | Topping: 600 mm concertina on 45° brackets (300 mm proj.)</text>
+  <text
+     x="140"
+     y="3580"
+     class="note"
+     id="text4">Finish: Hot-dip galvanized (ISO 1461); optional duplex coating. Anti-tamper SS fixings.</text>
+  <!-- Ground line -->
+  <line
+     x1="100"
+     y1="3000"
+     x2="3500"
+     y2="3000"
+     class="line"
+     id="line4" />
+  <text
+     x="2947.5642"
+     y="2935.6104"
+     class="txt"
+     id="text5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:normal;font-family:sans-serif">Finished Ground (FG)</text>
+  <!-- Posts -->
+  <rect
+     x="300"
+     y="3000"
+     width="75"
+     height="-2750"
+     fill="#ddd"
+     stroke="#222"
+     stroke-width="6"
+     id="rect5" />
+  <rect
+     x="2700"
+     y="3000"
+     width="75"
+     height="-2750"
+     fill="#ddd"
+     stroke="#222"
+     stroke-width="6"
+     id="rect6" />
+  <!-- Mesh panel (2,700 mm high, 50 mm clearance) -->
+  <rect
+     x="338"
+     y="2950"
+     width="2399"
+     height="-2700"
+     fill="none"
+     stroke="#555"
+     stroke-width="4"
+     id="rect7" />
+  <!-- Indicative mesh grid -->
+  <g
+     class="mesh"
+     opacity="0.35"
+     id="g19">
+    <!-- verticals -->
+    <g
+       id="g12">
+      <!-- draw every 200 mm for clarity -->
+      <line
+         x1="538"
+         y1="2950"
+         x2="538"
+         y2="250"
+         class="mesh"
+         id="line7" />
+      <line
+         x1="938"
+         y1="2950"
+         x2="938"
+         y2="250"
+         class="mesh"
+         id="line8" />
+      <line
+         x1="1338"
+         y1="2950"
+         x2="1338"
+         y2="250"
+         class="mesh"
+         id="line9" />
+      <line
+         x1="1738"
+         y1="2950"
+         x2="1738"
+         y2="250"
+         class="mesh"
+         id="line10" />
+      <line
+         x1="2138"
+         y1="2950"
+         x2="2138"
+         y2="250"
+         class="mesh"
+         id="line11" />
+      <line
+         x1="2538"
+         y1="2950"
+         x2="2538"
+         y2="250"
+         class="mesh"
+         id="line12" />
+    </g>
+    <!-- horizontals -->
+    <g
+       id="g18">
+      <line
+         x1="338"
+         y1="2550"
+         x2="2737"
+         y2="2550"
+         class="mesh"
+         id="line13" />
+      <line
+         x1="338"
+         y1="2150"
+         x2="2737"
+         y2="2150"
+         class="mesh"
+         id="line14" />
+      <line
+         x1="338"
+         y1="1750"
+         x2="2737"
+         y2="1750"
+         class="mesh"
+         id="line15" />
+      <line
+         x1="338"
+         y1="1350"
+         x2="2737"
+         y2="1350"
+         class="mesh"
+         id="line16" />
+      <line
+         x1="338"
+         y1="950"
+         x2="2737"
+         y2="950"
+         class="mesh"
+         id="line17" />
+      <line
+         x1="338"
+         y1="550"
+         x2="2737"
+         y2="550"
+         class="mesh"
+         id="line18" />
+    </g>
+  </g>
+  <!-- 45° brackets with 300 mm projection -->
+  <g
+     stroke="#222"
+     stroke-width="6"
+     fill="none"
+     id="g20">
+    <line
+       x1="338"
+       y1="250"
+       x2="338+212"
+       y2="250-212"
+       id="line19" />
+    <line
+       x1="2737"
+       y1="250"
+       x2="2737+212"
+       y2="250-212"
+       id="line20" />
+  </g>
+  <text
+     x="420"
+     y="120"
+     class="txt"
+     id="text20">45° bracket, 300 mm projection</text>
+  <!-- Concertina razor wire (Ø600) – symbolic loops -->
+  <g
+     stroke="#222222"
+     stroke-width="4"
+     fill="none"
+     opacity="0.9"
+     id="g23"
+     transform="translate(85.364011,420.72263)">
+    <circle
+       cx="650"
+       cy="40"
+       r="300"
+       id="circle20" />
+    <circle
+       cx="1150"
+       cy="40"
+       r="300"
+       id="circle21" />
+    <circle
+       cx="1650"
+       cy="40"
+       r="300"
+       id="circle22" />
+    <circle
+       cx="2150"
+       cy="40"
+       r="300"
+       id="circle23" />
+  </g>
+  <text
+     x="130"
+     y="60"
+     class="txt"
+     id="text23">600 mm Ø concertina (SS ties @ 300 mm)</text>
+  <!-- Dimensions -->
+  <!-- Bay width 2400 -->
+  <line
+     x1="338"
+     y1="3120"
+     x2="2737"
+     y2="3120"
+     class="dim"
+     id="line23" />
+  <text
+     x="1500"
+     y="3180"
+     class="txt"
+     id="text24">2,400 mm (post to post)</text>
+  <!-- Mesh height 2,700 -->
+  <line
+     x1="2850"
+     y1="2950"
+     x2="2850"
+     y2="250"
+     class="dim"
+     id="line24" />
+  <text
+     x="2880"
+     y="1620"
+     class="txt"
+     transform="rotate(90,2880,1620)"
+     id="text25">2,700 mm mesh height</text>
+  <!-- Ground clearance 50 -->
+  <line
+     x1="600"
+     y1="3000"
+     x2="600"
+     y2="2950"
+     class="dim"
+     id="line25" />
+  <text
+     x="2669.031"
+     y="-508.05142"
+     class="txt"
+     transform="rotate(90)"
+     id="text26"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:normal;font-family:sans-serif">50 mm ground clearance</text>
+</svg>

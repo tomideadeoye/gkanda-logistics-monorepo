@@ -1,0 +1,2820 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1190"
+   height="842"
+   viewBox="0 0 1190 842"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="wire_mesh.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs15" />
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.8497215"
+     inkscape:cx="584.3091"
+     inkscape:cy="456.03177"
+     inkscape:window-width="1728"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg15" />
+  <title
+     id="title1">Wire Mesh Fence Detail</title>
+  <desc
+     id="desc1">GK  A Logistics Services Ltd - NPA Lighter Terminal Fence Project</desc>
+  <style
+     id="style1">
+    .wire-grid { stroke: #000000; stroke-width: 0.5; fill: none; }
+    .post { stroke: #000000; stroke-width: 1; fill: #ffffff; }
+    .concrete-base { stroke: #000000; stroke-width: 1; fill: #ffffff; }
+    .ground-hatch { stroke: #000000; stroke-width: 0.5; fill: none; }
+    .support-bar { stroke: #000000; stroke-width: 1.5; fill: none; }
+    .dimension-line { stroke: #000000; stroke-width: 0.5; fill: none; }
+    .dimension-label { font: 14px Arial, sans-serif; fill: #000000; }
+    .main-title { font: 18px Arial, sans-serif; font-weight: bold; fill: #000000; }
+    .sub-title { font: 14px Arial, sans-serif; fill: #000000; }
+    .label { font: 12px Arial, sans-serif; fill: #000000; }
+    .small-label { font: 10px Arial, sans-serif; fill: #000000; }
+    .arrow { fill: #000000; }
+  </style>
+  <!-- Main Title -->
+  <text
+     x="595"
+     y="40"
+     class="main-title"
+     text-anchor="middle"
+     id="text1"
+     style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, sans-serif">SEE-THROUGH FENCE</text>
+  <text
+     x="595"
+     y="70"
+     class="sub-title"
+     text-anchor="middle"
+     id="text2">LENGTH = 640M</text>
+  <!-- Wire Mesh Grid -->
+  <!-- Grid parameters -->
+  <!-- grid_start_x = 10cm = 283px, grid_start_y = 5cm = 142px -->
+  <!-- grid_width = 24cm = 680px, grid_height = 27cm = 765px -->
+  <!-- spacing = 0.25cm = 7px -->
+  <!-- Vertical lines -->
+  <!-- ... existing code ... -->
+  <!-- Horizontal lines -->
+  <!-- ... existing code ... -->
+  <!-- Fence Posts and Concrete Bases -->
+  <!-- ... existing code ... -->
+  <!-- Ground Level and Hatching -->
+  <!-- ... existing code ... -->
+  <!-- Horizontal Support Bars -->
+  <!-- ... existing code ... -->
+  <!-- Concertina Wire -->
+  <!-- ... existing code ... -->
+  <!-- Dimension Lines -->
+  <!-- ... existing code ... -->
+  <!-- Information Boxes -->
+  <!-- Notes Box -->
+  <rect
+     x="20.133762"
+     y="744.19293"
+     width="522.13208"
+     height="85.673309"
+     class="wire-grid"
+     id="rect2" />
+  <text
+     x="29.792112"
+     y="766.24731"
+     class="label"
+     id="text3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, sans-serif">NOTES:</text>
+  <text
+     x="26.198029"
+     y="781.24731"
+     class="small-label"
+     id="text4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:Arial, sans-serif">THIS DRAWING IS THE PROPERTY OF GK A LOGISTICS SERVICES LTD.</text>
+  <text
+     x="26.198029"
+     y="794.84137"
+     class="small-label"
+     id="text5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:Arial, sans-serif">COPYING OF THIS DOCUMENT AND GIVING IT TO, USE OR COMMUNICATION OF THE CONTENTS THEREOF</text>
+  <text
+     x="22.646288"
+     y="808.81659"
+     class="small-label"
+     id="text6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:Arial, sans-serif">ARE FORBIDDEN WITHOUT EXPRESS AUTHORITY. OFFENDERS ARE LIABLE TO THE</text>
+  <text
+     x="27.353712"
+     y="821.17029"
+     class="small-label"
+     id="text7"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:Arial, sans-serif">PAYMENT OF DAMAGES. ALL RIGHTS ARE RESERVED.</text>
+  <!-- Description Box -->
+  <rect
+     x="546.52667"
+     y="744.70569"
+     width="243.46201"
+     height="85.282997"
+     class="wire-grid"
+     id="rect7" />
+  <text
+     x="553.86902"
+     y="759.69434"
+     class="label"
+     id="text8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, sans-serif">DESCRIPTION:</text>
+  <text
+     x="550.33844"
+     y="785.87115"
+     class="main-title"
+     id="text9"
+     style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, sans-serif">WIRE MESH</text>
+  <!-- Client/Title Block -->
+  <rect
+     x="794.20074"
+     y="743.60248"
+     width="379.8299"
+     height="89.843025"
+     class="wire-grid"
+     id="rect9" />
+  <text
+     x="802.6463"
+     y="768.81659"
+     class="small-label"
+     id="text10"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:Arial, sans-serif">CLIENT: GK A LOGISTICS SERVICES LTD</text>
+  <text
+     x="802.6463"
+     y="783.81659"
+     class="small-label"
+     id="text11"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:Arial, sans-serif">TITLE: NPA LIGHTER TERMINAL FENCE PROJECT</text>
+  <text
+     x="802.6463"
+     y="798.81659"
+     class="label"
+     id="text12"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, sans-serif">WIRE MESH FENCE DETAIL</text>
+  <text
+     x="802.6463"
+     y="813.81659"
+     class="small-label"
+     id="text13"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:Arial, sans-serif">ENGR: RYT-COXT LOGICS LIMITED</text>
+  <text
+     x="801.71613"
+     y="826.76202"
+     class="small-label"
+     id="text14"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:Arial, sans-serif">DATE: 26/09/25</text>
+  <text
+     x="1047.6462"
+     y="813.81659"
+     class="small-label"
+     id="text15"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:Arial, sans-serif">JOB NO: GKA-IKD-PN-001</text>
+  <g
+     id="vertical-wires"
+     transform="translate(263.47615,112.4251)">
+    <!-- ... existing code ... -->
+  </g>
+  <g
+     id="horizontal-wires"
+     transform="translate(263.47615,112.4251)">
+    <!-- ... existing code ... -->
+  </g>
+  <rect
+     x="387.01324"
+     y="163.00369"
+     width="10"
+     height="450"
+     class="post"
+     id="rect1"
+     style="fill:#ffffff;stroke:#000000;stroke-width:2" />
+  <rect
+     x="367.01324"
+     y="563.00372"
+     width="50"
+     height="50"
+     class="concrete-base"
+     id="rect2-7"
+     style="fill:#f0f0f0;stroke:#000000;stroke-width:1" />
+  <rect
+     x="787.01324"
+     y="163.00369"
+     width="10"
+     height="450"
+     class="post"
+     id="rect3"
+     style="fill:#ffffff;stroke:#000000;stroke-width:2" />
+  <rect
+     x="767.01324"
+     y="563.00372"
+     width="50"
+     height="50"
+     class="concrete-base"
+     id="rect4"
+     style="fill:#f0f0f0;stroke:#000000;stroke-width:1" />
+  <line
+     x1="377.01324"
+     y1="203.00369"
+     x2="807.01324"
+     y2="203.00369"
+     class="support-bar"
+     id="line4"
+     style="fill:none;stroke:#000000;stroke-width:3" />
+  <line
+     x1="377.01324"
+     y1="583.00372"
+     x2="807.01324"
+     y2="583.00372"
+     class="support-bar"
+     id="line5"
+     style="fill:none;stroke:#000000;stroke-width:3" />
+  <g
+     id="coils"
+     transform="translate(263.47615,112.4251)">
+    <!-- ... existing code ... -->
+  </g>
+  <line
+     x1="387.01324"
+     y1="633.00372"
+     x2="797.01324"
+     y2="633.00372"
+     class="dimension-line"
+     id="line7"
+     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:2, 2" />
+  <polygon
+     points="100,555 100,545 95,550 "
+     class="dimension-arrow"
+     id="polygon7"
+     style="fill:#000000"
+     transform="translate(287.01327,83.003695)" />
+  <polygon
+     points="510,555 510,545 515,550 "
+     class="dimension-arrow"
+     id="polygon8"
+     style="fill:#000000"
+     transform="translate(287.01327,83.003695)" />
+  <text
+     x="592.01324"
+     y="653.00372"
+     class="dimension-label"
+     text-anchor="middle"
+     id="text8-8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial, sans-serif;fill:#000000">2.40 m</text>
+  <line
+     x1="347.01324"
+     y1="163.00369"
+     x2="347.01324"
+     y2="613.00372"
+     class="dimension-line"
+     id="line8"
+     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:2, 2" />
+  <polygon
+     points="65,80 55,80 60,75 "
+     class="dimension-arrow"
+     id="polygon9"
+     style="fill:#000000"
+     transform="translate(287.01327,83.003695)" />
+  <polygon
+     points="65,530 55,530 60,535 "
+     class="dimension-arrow"
+     id="polygon10"
+     style="fill:#000000"
+     transform="translate(287.01327,83.003695)" />
+  <text
+     x="-388.00369"
+     y="327.01324"
+     class="dimension-label"
+     text-anchor="middle"
+     transform="rotate(-90)"
+     id="text10-8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial, sans-serif;fill:#000000">2.70 m</text>
+  <text
+     x="537.01324"
+     y="183.00369"
+     class="label"
+     id="text11-3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, sans-serif;fill:#000000">4mm Ø Wire Mesh</text>
+  <text
+     x="537.01324"
+     y="223.00369"
+     class="label"
+     id="text12-8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, sans-serif;fill:#000000">75mm × 75mm Aperture</text>
+  <text
+     x="537.01324"
+     y="578.00372"
+     class="label"
+     id="text13-1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, sans-serif;fill:#000000">75 × 75 × 5mm Post</text>
+  <text
+     x="537.01324"
+     y="608.00372"
+     class="label"
+     id="text14-5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, sans-serif;fill:#000000">450 × 450 × 600mm Base</text>
+  <text
+     x="548.7818"
+     y="167.71767"
+     class="label"
+     id="text15-3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, sans-serif;fill:#000000">Concertina Wire</text>
+  <g
+     id="g244"
+     transform="matrix(0.39157086,0,0,0.28375382,266.76823,180.49198)">
+    <line
+       x1="378"
+       y1="189"
+       x2="378"
+       y2="1209.6"
+       class="wire-grid"
+       id="line2"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="387.45001"
+       y1="189"
+       x2="387.45001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line3"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="396.89999"
+       y1="189"
+       x2="396.89999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line4-8"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="406.35001"
+       y1="189"
+       x2="406.35001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line5-7"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="415.79999"
+       y1="189"
+       x2="415.79999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line6-7"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="425.25"
+       y1="189"
+       x2="425.25"
+       y2="1209.6"
+       class="wire-grid"
+       id="line7-4"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="434.70001"
+       y1="189"
+       x2="434.70001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line8-4"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="444.14999"
+       y1="189"
+       x2="444.14999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line9"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="453.60001"
+       y1="189"
+       x2="453.60001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line10"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="463.04999"
+       y1="189"
+       x2="463.04999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line11"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="472.5"
+       y1="189"
+       x2="472.5"
+       y2="1209.6"
+       class="wire-grid"
+       id="line12"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="481.95001"
+       y1="189"
+       x2="481.95001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line13"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="491.39999"
+       y1="189"
+       x2="491.39999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line14"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="500.85001"
+       y1="189"
+       x2="500.85001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line15"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="510.29999"
+       y1="189"
+       x2="510.29999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line16"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="519.75"
+       y1="189"
+       x2="519.75"
+       y2="1209.6"
+       class="wire-grid"
+       id="line17"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="529.20001"
+       y1="189"
+       x2="529.20001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line18"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="538.65002"
+       y1="189"
+       x2="538.65002"
+       y2="1209.6"
+       class="wire-grid"
+       id="line19"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="548.09998"
+       y1="189"
+       x2="548.09998"
+       y2="1209.6"
+       class="wire-grid"
+       id="line20"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="557.54999"
+       y1="189"
+       x2="557.54999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line21"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="567"
+       y1="189"
+       x2="567"
+       y2="1209.6"
+       class="wire-grid"
+       id="line22"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="576.45001"
+       y1="189"
+       x2="576.45001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line23"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="585.90002"
+       y1="189"
+       x2="585.90002"
+       y2="1209.6"
+       class="wire-grid"
+       id="line24"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="595.34998"
+       y1="189"
+       x2="595.34998"
+       y2="1209.6"
+       class="wire-grid"
+       id="line25"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="604.79999"
+       y1="189"
+       x2="604.79999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line26"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="614.25"
+       y1="189"
+       x2="614.25"
+       y2="1209.6"
+       class="wire-grid"
+       id="line27"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="623.70001"
+       y1="189"
+       x2="623.70001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line28"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="633.15002"
+       y1="189"
+       x2="633.15002"
+       y2="1209.6"
+       class="wire-grid"
+       id="line29"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="642.59998"
+       y1="189"
+       x2="642.59998"
+       y2="1209.6"
+       class="wire-grid"
+       id="line30"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="652.04999"
+       y1="189"
+       x2="652.04999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line31"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="661.5"
+       y1="189"
+       x2="661.5"
+       y2="1209.6"
+       class="wire-grid"
+       id="line32"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="670.95001"
+       y1="189"
+       x2="670.95001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line33"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="680.40002"
+       y1="189"
+       x2="680.40002"
+       y2="1209.6"
+       class="wire-grid"
+       id="line34"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="689.84998"
+       y1="189"
+       x2="689.84998"
+       y2="1209.6"
+       class="wire-grid"
+       id="line35"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="699.29999"
+       y1="189"
+       x2="699.29999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line36"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="708.75"
+       y1="189"
+       x2="708.75"
+       y2="1209.6"
+       class="wire-grid"
+       id="line37"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="718.20001"
+       y1="189"
+       x2="718.20001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line38"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="727.65002"
+       y1="189"
+       x2="727.65002"
+       y2="1209.6"
+       class="wire-grid"
+       id="line39"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="737.09998"
+       y1="189"
+       x2="737.09998"
+       y2="1209.6"
+       class="wire-grid"
+       id="line40"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="746.54999"
+       y1="189"
+       x2="746.54999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line41"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="756"
+       y1="189"
+       x2="756"
+       y2="1209.6"
+       class="wire-grid"
+       id="line42"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="765.45001"
+       y1="189"
+       x2="765.45001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line43"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="774.90002"
+       y1="189"
+       x2="774.90002"
+       y2="1209.6"
+       class="wire-grid"
+       id="line44"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="784.34998"
+       y1="189"
+       x2="784.34998"
+       y2="1209.6"
+       class="wire-grid"
+       id="line45"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="793.79999"
+       y1="189"
+       x2="793.79999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line46"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="803.25"
+       y1="189"
+       x2="803.25"
+       y2="1209.6"
+       class="wire-grid"
+       id="line47"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="812.70001"
+       y1="189"
+       x2="812.70001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line48"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="822.15002"
+       y1="189"
+       x2="822.15002"
+       y2="1209.6"
+       class="wire-grid"
+       id="line49"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="831.59998"
+       y1="189"
+       x2="831.59998"
+       y2="1209.6"
+       class="wire-grid"
+       id="line50"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="841.04999"
+       y1="189"
+       x2="841.04999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line51"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="850.5"
+       y1="189"
+       x2="850.5"
+       y2="1209.6"
+       class="wire-grid"
+       id="line52"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="859.95001"
+       y1="189"
+       x2="859.95001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line53"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="869.40002"
+       y1="189"
+       x2="869.40002"
+       y2="1209.6"
+       class="wire-grid"
+       id="line54"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="878.84998"
+       y1="189"
+       x2="878.84998"
+       y2="1209.6"
+       class="wire-grid"
+       id="line55"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="888.29999"
+       y1="189"
+       x2="888.29999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line56"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="897.75"
+       y1="189"
+       x2="897.75"
+       y2="1209.6"
+       class="wire-grid"
+       id="line57"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="907.20001"
+       y1="189"
+       x2="907.20001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line58"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="916.65002"
+       y1="189"
+       x2="916.65002"
+       y2="1209.6"
+       class="wire-grid"
+       id="line59"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="926.09998"
+       y1="189"
+       x2="926.09998"
+       y2="1209.6"
+       class="wire-grid"
+       id="line60"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="935.54999"
+       y1="189"
+       x2="935.54999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line61"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="945"
+       y1="189"
+       x2="945"
+       y2="1209.6"
+       class="wire-grid"
+       id="line62"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="954.45001"
+       y1="189"
+       x2="954.45001"
+       y2="1209.6"
+       class="wire-grid"
+       id="line63"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="963.90002"
+       y1="189"
+       x2="963.90002"
+       y2="1209.6"
+       class="wire-grid"
+       id="line64"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="973.34998"
+       y1="189"
+       x2="973.34998"
+       y2="1209.6"
+       class="wire-grid"
+       id="line65"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="982.79999"
+       y1="189"
+       x2="982.79999"
+       y2="1209.6"
+       class="wire-grid"
+       id="line66"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="992.25"
+       y1="189"
+       x2="992.25"
+       y2="1209.6"
+       class="wire-grid"
+       id="line67"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1001.7"
+       y1="189"
+       x2="1001.7"
+       y2="1209.6"
+       class="wire-grid"
+       id="line68"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1011.15"
+       y1="189"
+       x2="1011.15"
+       y2="1209.6"
+       class="wire-grid"
+       id="line69"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1020.6"
+       y1="189"
+       x2="1020.6"
+       y2="1209.6"
+       class="wire-grid"
+       id="line70"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1030.05"
+       y1="189"
+       x2="1030.05"
+       y2="1209.6"
+       class="wire-grid"
+       id="line71"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1039.5"
+       y1="189"
+       x2="1039.5"
+       y2="1209.6"
+       class="wire-grid"
+       id="line72"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1048.95"
+       y1="189"
+       x2="1048.95"
+       y2="1209.6"
+       class="wire-grid"
+       id="line73"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1058.4"
+       y1="189"
+       x2="1058.4"
+       y2="1209.6"
+       class="wire-grid"
+       id="line74"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1067.85"
+       y1="189"
+       x2="1067.85"
+       y2="1209.6"
+       class="wire-grid"
+       id="line75"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1077.3"
+       y1="189"
+       x2="1077.3"
+       y2="1209.6"
+       class="wire-grid"
+       id="line76"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1086.75"
+       y1="189"
+       x2="1086.75"
+       y2="1209.6"
+       class="wire-grid"
+       id="line77"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1096.2"
+       y1="189"
+       x2="1096.2"
+       y2="1209.6"
+       class="wire-grid"
+       id="line78"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1105.65"
+       y1="189"
+       x2="1105.65"
+       y2="1209.6"
+       class="wire-grid"
+       id="line79"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1115.1"
+       y1="189"
+       x2="1115.1"
+       y2="1209.6"
+       class="wire-grid"
+       id="line80"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1124.55"
+       y1="189"
+       x2="1124.55"
+       y2="1209.6"
+       class="wire-grid"
+       id="line81"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1134"
+       y1="189"
+       x2="1134"
+       y2="1209.6"
+       class="wire-grid"
+       id="line82"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1143.45"
+       y1="189"
+       x2="1143.45"
+       y2="1209.6"
+       class="wire-grid"
+       id="line83"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1152.9"
+       y1="189"
+       x2="1152.9"
+       y2="1209.6"
+       class="wire-grid"
+       id="line84"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1162.35"
+       y1="189"
+       x2="1162.35"
+       y2="1209.6"
+       class="wire-grid"
+       id="line85"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1171.8"
+       y1="189"
+       x2="1171.8"
+       y2="1209.6"
+       class="wire-grid"
+       id="line86"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1181.25"
+       y1="189"
+       x2="1181.25"
+       y2="1209.6"
+       class="wire-grid"
+       id="line87"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1190.7"
+       y1="189"
+       x2="1190.7"
+       y2="1209.6"
+       class="wire-grid"
+       id="line88"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1200.15"
+       y1="189"
+       x2="1200.15"
+       y2="1209.6"
+       class="wire-grid"
+       id="line89"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1209.6"
+       y1="189"
+       x2="1209.6"
+       y2="1209.6"
+       class="wire-grid"
+       id="line90"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1219.05"
+       y1="189"
+       x2="1219.05"
+       y2="1209.6"
+       class="wire-grid"
+       id="line91"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1228.5"
+       y1="189"
+       x2="1228.5"
+       y2="1209.6"
+       class="wire-grid"
+       id="line92"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1237.95"
+       y1="189"
+       x2="1237.95"
+       y2="1209.6"
+       class="wire-grid"
+       id="line93"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1247.4"
+       y1="189"
+       x2="1247.4"
+       y2="1209.6"
+       class="wire-grid"
+       id="line94"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1256.85"
+       y1="189"
+       x2="1256.85"
+       y2="1209.6"
+       class="wire-grid"
+       id="line95"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1266.3"
+       y1="189"
+       x2="1266.3"
+       y2="1209.6"
+       class="wire-grid"
+       id="line96"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1275.75"
+       y1="189"
+       x2="1275.75"
+       y2="1209.6"
+       class="wire-grid"
+       id="line97"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1285.2"
+       y1="189"
+       x2="1285.2"
+       y2="1209.6"
+       class="wire-grid"
+       id="line98"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="189"
+       x2="1285.2"
+       y2="189"
+       class="wire-grid"
+       id="line99"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="198.45"
+       x2="1285.2"
+       y2="198.45"
+       class="wire-grid"
+       id="line100"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="207.89999"
+       x2="1285.2"
+       y2="207.89999"
+       class="wire-grid"
+       id="line101"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="217.35001"
+       x2="1285.2"
+       y2="217.35001"
+       class="wire-grid"
+       id="line102"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="226.8"
+       x2="1285.2"
+       y2="226.8"
+       class="wire-grid"
+       id="line103"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="236.25"
+       x2="1285.2"
+       y2="236.25"
+       class="wire-grid"
+       id="line104"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="245.7"
+       x2="1285.2"
+       y2="245.7"
+       class="wire-grid"
+       id="line105"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="255.14999"
+       x2="1285.2"
+       y2="255.14999"
+       class="wire-grid"
+       id="line106"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="264.60001"
+       x2="1285.2"
+       y2="264.60001"
+       class="wire-grid"
+       id="line107"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="274.04999"
+       x2="1285.2"
+       y2="274.04999"
+       class="wire-grid"
+       id="line108"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="283.5"
+       x2="1285.2"
+       y2="283.5"
+       class="wire-grid"
+       id="line109"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="292.95001"
+       x2="1285.2"
+       y2="292.95001"
+       class="wire-grid"
+       id="line110"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="302.39999"
+       x2="1285.2"
+       y2="302.39999"
+       class="wire-grid"
+       id="line111"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="311.85001"
+       x2="1285.2"
+       y2="311.85001"
+       class="wire-grid"
+       id="line112"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="321.29999"
+       x2="1285.2"
+       y2="321.29999"
+       class="wire-grid"
+       id="line113"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="330.75"
+       x2="1285.2"
+       y2="330.75"
+       class="wire-grid"
+       id="line114"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="340.20001"
+       x2="1285.2"
+       y2="340.20001"
+       class="wire-grid"
+       id="line115"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="349.64999"
+       x2="1285.2"
+       y2="349.64999"
+       class="wire-grid"
+       id="line116"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="359.10001"
+       x2="1285.2"
+       y2="359.10001"
+       class="wire-grid"
+       id="line117"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="368.54999"
+       x2="1285.2"
+       y2="368.54999"
+       class="wire-grid"
+       id="line118"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="378"
+       x2="1285.2"
+       y2="378"
+       class="wire-grid"
+       id="line119"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="387.45001"
+       x2="1285.2"
+       y2="387.45001"
+       class="wire-grid"
+       id="line120"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="396.89999"
+       x2="1285.2"
+       y2="396.89999"
+       class="wire-grid"
+       id="line121"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="406.35001"
+       x2="1285.2"
+       y2="406.35001"
+       class="wire-grid"
+       id="line122"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="415.79999"
+       x2="1285.2"
+       y2="415.79999"
+       class="wire-grid"
+       id="line123"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="425.25"
+       x2="1285.2"
+       y2="425.25"
+       class="wire-grid"
+       id="line124"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="434.70001"
+       x2="1285.2"
+       y2="434.70001"
+       class="wire-grid"
+       id="line125"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="444.14999"
+       x2="1285.2"
+       y2="444.14999"
+       class="wire-grid"
+       id="line126"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="453.60001"
+       x2="1285.2"
+       y2="453.60001"
+       class="wire-grid"
+       id="line127"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="463.04999"
+       x2="1285.2"
+       y2="463.04999"
+       class="wire-grid"
+       id="line128"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="472.5"
+       x2="1285.2"
+       y2="472.5"
+       class="wire-grid"
+       id="line129"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="481.95001"
+       x2="1285.2"
+       y2="481.95001"
+       class="wire-grid"
+       id="line130"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="491.39999"
+       x2="1285.2"
+       y2="491.39999"
+       class="wire-grid"
+       id="line131"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="500.85001"
+       x2="1285.2"
+       y2="500.85001"
+       class="wire-grid"
+       id="line132"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="510.29999"
+       x2="1285.2"
+       y2="510.29999"
+       class="wire-grid"
+       id="line133"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="519.75"
+       x2="1285.2"
+       y2="519.75"
+       class="wire-grid"
+       id="line134"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="529.20001"
+       x2="1285.2"
+       y2="529.20001"
+       class="wire-grid"
+       id="line135"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="538.65002"
+       x2="1285.2"
+       y2="538.65002"
+       class="wire-grid"
+       id="line136"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="548.09998"
+       x2="1285.2"
+       y2="548.09998"
+       class="wire-grid"
+       id="line137"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="557.54999"
+       x2="1285.2"
+       y2="557.54999"
+       class="wire-grid"
+       id="line138"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="567"
+       x2="1285.2"
+       y2="567"
+       class="wire-grid"
+       id="line139"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="576.45001"
+       x2="1285.2"
+       y2="576.45001"
+       class="wire-grid"
+       id="line140"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="585.90002"
+       x2="1285.2"
+       y2="585.90002"
+       class="wire-grid"
+       id="line141"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="595.34998"
+       x2="1285.2"
+       y2="595.34998"
+       class="wire-grid"
+       id="line142"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="604.79999"
+       x2="1285.2"
+       y2="604.79999"
+       class="wire-grid"
+       id="line143"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="614.25"
+       x2="1285.2"
+       y2="614.25"
+       class="wire-grid"
+       id="line144"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="623.70001"
+       x2="1285.2"
+       y2="623.70001"
+       class="wire-grid"
+       id="line145"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="633.15002"
+       x2="1285.2"
+       y2="633.15002"
+       class="wire-grid"
+       id="line146"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="642.59998"
+       x2="1285.2"
+       y2="642.59998"
+       class="wire-grid"
+       id="line147"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="652.04999"
+       x2="1285.2"
+       y2="652.04999"
+       class="wire-grid"
+       id="line148"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="661.5"
+       x2="1285.2"
+       y2="661.5"
+       class="wire-grid"
+       id="line149"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="670.95001"
+       x2="1285.2"
+       y2="670.95001"
+       class="wire-grid"
+       id="line150"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="680.40002"
+       x2="1285.2"
+       y2="680.40002"
+       class="wire-grid"
+       id="line151"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="689.84998"
+       x2="1285.2"
+       y2="689.84998"
+       class="wire-grid"
+       id="line152"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="699.29999"
+       x2="1285.2"
+       y2="699.29999"
+       class="wire-grid"
+       id="line153"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="708.75"
+       x2="1285.2"
+       y2="708.75"
+       class="wire-grid"
+       id="line154"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="718.20001"
+       x2="1285.2"
+       y2="718.20001"
+       class="wire-grid"
+       id="line155"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="727.65002"
+       x2="1285.2"
+       y2="727.65002"
+       class="wire-grid"
+       id="line156"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="737.09998"
+       x2="1285.2"
+       y2="737.09998"
+       class="wire-grid"
+       id="line157"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="746.54999"
+       x2="1285.2"
+       y2="746.54999"
+       class="wire-grid"
+       id="line158"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="756"
+       x2="1285.2"
+       y2="756"
+       class="wire-grid"
+       id="line159"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="765.45001"
+       x2="1285.2"
+       y2="765.45001"
+       class="wire-grid"
+       id="line160"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="774.90002"
+       x2="1285.2"
+       y2="774.90002"
+       class="wire-grid"
+       id="line161"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="784.34998"
+       x2="1285.2"
+       y2="784.34998"
+       class="wire-grid"
+       id="line162"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="793.79999"
+       x2="1285.2"
+       y2="793.79999"
+       class="wire-grid"
+       id="line163"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="803.25"
+       x2="1285.2"
+       y2="803.25"
+       class="wire-grid"
+       id="line164"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="812.70001"
+       x2="1285.2"
+       y2="812.70001"
+       class="wire-grid"
+       id="line165"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="822.15002"
+       x2="1285.2"
+       y2="822.15002"
+       class="wire-grid"
+       id="line166"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="831.59998"
+       x2="1285.2"
+       y2="831.59998"
+       class="wire-grid"
+       id="line167"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="841.04999"
+       x2="1285.2"
+       y2="841.04999"
+       class="wire-grid"
+       id="line168"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="850.5"
+       x2="1285.2"
+       y2="850.5"
+       class="wire-grid"
+       id="line169"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="859.95001"
+       x2="1285.2"
+       y2="859.95001"
+       class="wire-grid"
+       id="line170"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="869.40002"
+       x2="1285.2"
+       y2="869.40002"
+       class="wire-grid"
+       id="line171"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="878.84998"
+       x2="1285.2"
+       y2="878.84998"
+       class="wire-grid"
+       id="line172"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="888.29999"
+       x2="1285.2"
+       y2="888.29999"
+       class="wire-grid"
+       id="line173"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="897.75"
+       x2="1285.2"
+       y2="897.75"
+       class="wire-grid"
+       id="line174"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="907.20001"
+       x2="1285.2"
+       y2="907.20001"
+       class="wire-grid"
+       id="line175"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="916.65002"
+       x2="1285.2"
+       y2="916.65002"
+       class="wire-grid"
+       id="line176"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="926.09998"
+       x2="1285.2"
+       y2="926.09998"
+       class="wire-grid"
+       id="line177"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="935.54999"
+       x2="1285.2"
+       y2="935.54999"
+       class="wire-grid"
+       id="line178"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="945"
+       x2="1285.2"
+       y2="945"
+       class="wire-grid"
+       id="line179"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="954.45001"
+       x2="1285.2"
+       y2="954.45001"
+       class="wire-grid"
+       id="line180"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="963.90002"
+       x2="1285.2"
+       y2="963.90002"
+       class="wire-grid"
+       id="line181"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="973.34998"
+       x2="1285.2"
+       y2="973.34998"
+       class="wire-grid"
+       id="line182"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="982.79999"
+       x2="1285.2"
+       y2="982.79999"
+       class="wire-grid"
+       id="line183"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="992.25"
+       x2="1285.2"
+       y2="992.25"
+       class="wire-grid"
+       id="line184"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1001.7"
+       x2="1285.2"
+       y2="1001.7"
+       class="wire-grid"
+       id="line185"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1011.15"
+       x2="1285.2"
+       y2="1011.15"
+       class="wire-grid"
+       id="line186"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1020.6"
+       x2="1285.2"
+       y2="1020.6"
+       class="wire-grid"
+       id="line187"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1030.05"
+       x2="1285.2"
+       y2="1030.05"
+       class="wire-grid"
+       id="line188"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1039.5"
+       x2="1285.2"
+       y2="1039.5"
+       class="wire-grid"
+       id="line189"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1048.95"
+       x2="1285.2"
+       y2="1048.95"
+       class="wire-grid"
+       id="line190"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1058.4"
+       x2="1285.2"
+       y2="1058.4"
+       class="wire-grid"
+       id="line191"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1067.85"
+       x2="1285.2"
+       y2="1067.85"
+       class="wire-grid"
+       id="line192"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1077.3"
+       x2="1285.2"
+       y2="1077.3"
+       class="wire-grid"
+       id="line193"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1086.75"
+       x2="1285.2"
+       y2="1086.75"
+       class="wire-grid"
+       id="line194"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1096.2"
+       x2="1285.2"
+       y2="1096.2"
+       class="wire-grid"
+       id="line195"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1105.65"
+       x2="1285.2"
+       y2="1105.65"
+       class="wire-grid"
+       id="line196"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1115.1"
+       x2="1285.2"
+       y2="1115.1"
+       class="wire-grid"
+       id="line197"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1124.55"
+       x2="1285.2"
+       y2="1124.55"
+       class="wire-grid"
+       id="line198"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1134"
+       x2="1285.2"
+       y2="1134"
+       class="wire-grid"
+       id="line199"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1143.45"
+       x2="1285.2"
+       y2="1143.45"
+       class="wire-grid"
+       id="line200"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1152.9"
+       x2="1285.2"
+       y2="1152.9"
+       class="wire-grid"
+       id="line201"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1162.35"
+       x2="1285.2"
+       y2="1162.35"
+       class="wire-grid"
+       id="line202"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1171.8"
+       x2="1285.2"
+       y2="1171.8"
+       class="wire-grid"
+       id="line203"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1181.25"
+       x2="1285.2"
+       y2="1181.25"
+       class="wire-grid"
+       id="line204"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1190.7"
+       x2="1285.2"
+       y2="1190.7"
+       class="wire-grid"
+       id="line205"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1200.15"
+       x2="1285.2"
+       y2="1200.15"
+       class="wire-grid"
+       id="line206"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1209.6"
+       x2="1285.2"
+       y2="1209.6"
+       class="wire-grid"
+       id="line207"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <rect
+       x="359.10001"
+       y="226.8"
+       width="37.799999"
+       height="56.700001"
+       class="concrete-base"
+       id="rect207"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1" />
+    <rect
+       x="370.44"
+       y="226.8"
+       width="15.12"
+       height="1077.3"
+       class="post"
+       id="rect208"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1" />
+    <rect
+       x="1266.3"
+       y="226.8"
+       width="37.799999"
+       height="56.700001"
+       class="concrete-base"
+       id="rect209"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1" />
+    <rect
+       x="1277.64"
+       y="226.8"
+       width="15.12"
+       height="1077.3"
+       class="post"
+       id="rect210"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1" />
+    <line
+       x1="340.20001"
+       y1="283.5"
+       x2="396.89999"
+       y2="283.5"
+       class="ground-hatch"
+       id="line210"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="340.20001"
+       y1="283.5"
+       x2="340.20001"
+       y2="359.10001"
+       class="ground-hatch"
+       id="line211"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="396.89999"
+       y1="283.5"
+       x2="396.89999"
+       y2="359.10001"
+       class="ground-hatch"
+       id="line212"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="340.20001"
+       y1="359.10001"
+       x2="396.89999"
+       y2="359.10001"
+       class="ground-hatch"
+       id="line213"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="385.56"
+       y1="264.60001"
+       x2="1277.64"
+       y2="264.60001"
+       class="ground-hatch"
+       id="line214"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="385.56"
+       y1="264.60001"
+       x2="385.56"
+       y2="321.29999"
+       class="ground-hatch"
+       id="line215"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1277.64"
+       y1="264.60001"
+       x2="1277.64"
+       y2="321.29999"
+       class="ground-hatch"
+       id="line216"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="385.56"
+       y1="321.29999"
+       x2="1277.64"
+       y2="321.29999"
+       class="ground-hatch"
+       id="line217"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1292.76"
+       y1="283.5"
+       x2="1349.46"
+       y2="283.5"
+       class="ground-hatch"
+       id="line218"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1292.76"
+       y1="283.5"
+       x2="1292.76"
+       y2="359.10001"
+       class="ground-hatch"
+       id="line219"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1349.46"
+       y1="283.5"
+       x2="1349.46"
+       y2="359.10001"
+       class="ground-hatch"
+       id="line220"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1292.76"
+       y1="359.10001"
+       x2="1349.46"
+       y2="359.10001"
+       class="ground-hatch"
+       id="line221"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="396.89999"
+       y1="283.5"
+       x2="1266.3"
+       y2="283.5"
+       class="ground-hatch"
+       id="line222"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="340.20001"
+       y1="207.89999"
+       x2="1323"
+       y2="207.89999"
+       class="support-bar"
+       id="line223"
+       style="fill:none;stroke:#000000;stroke-width:1.5" />
+    <line
+       x1="340.20001"
+       y1="1190.7"
+       x2="1323"
+       y2="1190.7"
+       class="support-bar"
+       id="line224"
+       style="fill:none;stroke:#000000;stroke-width:1.5" />
+    <line
+       x1="378"
+       y1="1217.16"
+       x2="582.12"
+       y2="1217.16"
+       class="support-bar"
+       id="line225"
+       style="fill:none;stroke:#000000;stroke-width:1.5" />
+    <line
+       x1="378"
+       y1="1228.5"
+       x2="1285.2"
+       y2="1228.5"
+       class="dimension-line"
+       id="line226"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="378"
+       y1="1209.6"
+       x2="378"
+       y2="1228.5"
+       class="dimension-line"
+       id="line227"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="1285.2"
+       y1="1209.6"
+       x2="1285.2"
+       y2="1228.5"
+       class="dimension-line"
+       id="line228"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <text
+       x="831.59998"
+       y="1236.0601"
+       class="dimension-label"
+       text-anchor="middle"
+       id="text228"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial, sans-serif;fill:#000000">2.40</text>
+    <line
+       x1="359.10001"
+       y1="189"
+       x2="359.10001"
+       y2="1209.6"
+       class="dimension-line"
+       id="line229"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="359.10001"
+       y1="189"
+       x2="378"
+       y2="189"
+       class="dimension-line"
+       id="line230"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <line
+       x1="359.10001"
+       y1="1209.6"
+       x2="378"
+       y2="1209.6"
+       class="dimension-line"
+       id="line231"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <text
+       x="351.54001"
+       y="699.29999"
+       class="dimension-label"
+       text-anchor="middle"
+       transform="rotate(-90,351.54,699.3)"
+       id="text231"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial, sans-serif;fill:#000000">2.70</text>
+    <rect
+       x="410"
+       y="780"
+       width="380"
+       height="50"
+       class="wire-grid"
+       id="rect236"
+       style="fill:none;stroke:#000000;stroke-width:0.5" />
+  </g>
+  <g
+     id="g262"
+     transform="translate(0,30.598261)">
+    <line
+       x1="387.01324"
+       y1="118.87486"
+       x2="797.01324"
+       y2="118.87486"
+       class="concertina-wire"
+       id="line6"
+       style="fill:none;stroke:#000000;stroke-width:1.5" />
+    <g
+       transform="translate(410.87759,119.02422)"
+       id="g10">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle9"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line9-2"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line10-9"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(448.06231,119.02422)"
+       id="g12">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle10"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line11-8"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line12-2"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       id="g14"
+       transform="translate(466.65467,119.02422)">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle12"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line13-0"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line14-7"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(485.24704,119.02422)"
+       id="g16">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle14"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line15-4"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line16-8"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(522.43176,119.02422)"
+       id="g18">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle16"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line17-5"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line18-8"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(541.02412,119.02422)"
+       id="g209">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle15"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line208"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line209"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(559.61648,119.02422)"
+       id="g233">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle209"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line232"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line233"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(578.20884,119.02422)"
+       id="g235">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle233"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line234"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line235"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(596.8012,119.02422)"
+       id="g237">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle235"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line236"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line237"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(615.39357,119.02422)"
+       id="g239">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle237"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line238"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line239"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(633.98593,119.02422)"
+       id="g241">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle239"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line240"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line241"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(503.8394,119.02422)"
+       id="g243">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle241"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line242"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line243"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(652.57829,119.02422)"
+       id="g245">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle243"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line244"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line245"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(689.76301,119.02422)"
+       id="g247">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle245"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line246"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line247"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(429.46995,119.02422)"
+       id="g249">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle247"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line248"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line249"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(671.17065,119.02422)"
+       id="g251">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle249"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line250"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line251"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(726.94774,119.02422)"
+       id="g253">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle251"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line252"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line253"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(745.5401,119.02422)"
+       id="g255">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle253"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line254"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line255"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(782.72482,119.02422)"
+       id="g257">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle255"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line256"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line257"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(708.35537,119.02422)"
+       id="g259">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle257"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line258"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line259"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+    <g
+       transform="translate(764.13246,119.02422)"
+       id="g261">
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         class="coil"
+         id="circle259"
+         style="fill:none;stroke:#000000;stroke-width:1" />
+      <!-- Cross barbs -->
+      <line
+         x1="-4"
+         y1="-6"
+         x2="4"
+         y2="-6"
+         class="barb"
+         id="line260"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+      <line
+         x1="0"
+         y1="-4"
+         x2="0"
+         y2="-8"
+         class="barb"
+         id="line261"
+         style="fill:none;stroke:#000000;stroke-width:0.8" />
+    </g>
+  </g>
+</svg>

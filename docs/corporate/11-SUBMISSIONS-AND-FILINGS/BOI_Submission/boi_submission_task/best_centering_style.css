@@ -1,0 +1,47 @@
+
+    /* BEST CSS FOR IMAGE CENTERING IN PDF */
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 40px auto;
+        line-height: 1.6;
+        max-width: 1000px;
+        padding: 20px;
+    }
+    
+    /* TABLE-BASED CENTERING (MOST RELIABLE) */
+    table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+        margin: 30px 0 !important;
+    }
+    
+    td {
+        text-align: center !important;
+        border: none !important;
+        padding: 0 !important;
+    }
+    
+    /* IMAGE STYLING */
+    img {
+        max-width: 800px !important;
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    
+    /* CAPTION STYLING */
+    p[style*="font-style: italic"] {
+        margin-top: 10px !important;
+        font-style: italic !important;
+        text-align: center !important;
+        color: #666 !important;
+    }
+    
+    /* HEADINGS */
+    h1, h2, h3 {
+        color: #333;
+        text-align: left;
+    }
+    

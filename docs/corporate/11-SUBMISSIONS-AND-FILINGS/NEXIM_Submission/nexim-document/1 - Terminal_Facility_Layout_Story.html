@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Story of GK & A Logistics Terminal Facility</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        
+        h1 {
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            color: #1a5276;
+        }
+        
+        /* Page break before each major section */
+        .slide-section {
+            page-break-before: always;
+        }
+        
+        /* Special class for sections that should stay together on same page */
+        .same-page {
+            page-break-inside: avoid;
+            page-break-before: avoid;
+        }
+        
+        /* Remove page break for specific sections that should be together */
+        .no-page-break-before {
+            page-break-before: avoid;
+        }
+        
+        /* Don't break after the first heading */
+        h1 {
+            page-break-after: avoid;
+        }
+        
+        /* Don't break inside headings */
+        h1, h2, h3, h4 {
+            page-break-inside: avoid;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            color: #2980b9;
+            margin-top: 25px;
+            page-break-inside: avoid;
+            page-break-after: avoid;
+        }
+        
+        .header-info {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #7f8c8d;
+            font-size: 1.2em;
+            page-break-inside: avoid;
+        }
+        
+        .layout-image {
+            text-align: center;
+            margin: 30px 0;
+            page-break-inside: avoid;
+        }
+        
+        .layout-image img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .figure-caption {
+            font-style: italic;
+            margin-top: 10px;
+            color: #7f8c8d;
+            font-weight: bold;
+            page-break-inside: avoid;
+        }
+        
+        .facility-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .detail-card {
+            background-color: #f1f8ff;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            border-radius: 5px;
+            page-break-inside: avoid;
+        }
+        
+        .detail-card h4 {
+            margin-top: 0;
+            color: #1a5276;
+        }
+        
+        .phase-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .phase-card {
+            background-color: #e8f4fc;
+            border: 1px solid #bee0f5;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            page-break-inside: avoid;
+        }
+        
+        .phase-card h4 {
+            margin-top: 0;
+            color: #1a5276;
+            border-bottom: 1px solid #bee0f5;
+            padding-bottom: 10px;
+            page-break-after: avoid;
+        }
+        
+        .security-image {
+            text-align: center;
+            margin: 30px 0;
+            page-break-inside: avoid;
+        }
+        
+        .security-image img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .conclusion {
+            background-color: #fff;
+            border-left: 4px solid #4caf50;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 35px;
+            margin-right: 30px;
+            page-break-inside: avoid;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+            page-break-inside: avoid;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .highlight {
+            background-color: #fff9c4;
+            padding: 3px 5px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        
+        p {
+            page-break-inside: avoid;
+            orphans: 3;
+            widows: 3;
+        }
+        
+        /* Prevent breaking inside image grids */
+        .facility-details, .phase-container {
+            page-break-inside: avoid;
+        }
+        
+        /* Print-specific styles */
+        @media print {
+            body {
+                padding: 0;
+                margin: 0;
+                background-color: white;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+                padding: 20px;
+            }
+            
+            /* Force page breaks before major sections */
+            .section {
+                page-break-inside: avoid;
+            }
+            
+            /* Ensure grid items don't break */
+            .detail-card {
+                page-break-inside: avoid;
+            }
+            
+            /* Special print rules for same-page sections */
+            .same-page {
+                page-break-inside: avoid;
+                page-break-before: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>GK & A Logistics Terminal Facility</h1>
+        <div class="header-info">
+            <h2>For: Nigerian Export-Import Bank (NEXIM)</h2>
+            <p><strong>Date:</strong> October 3, 2025</p>
+        </div>
+
+        <div class="section slide-section">
+            <h2>Introduction</h2>
+            <p>Welcome to GK & A Logistics Services Ltd's, a state-of-the-art terminal facility at the NPA Lighter Terminal, Ikorodu. This strategic location serves as a crucial gateway for Nigeria's import and export activities, connecting businesses to global markets through efficient maritime logistics.</p>
+        </div>
+
+        <div class="section slide-section">
+            <h2>The Layout: A Comprehensive View</h2>
+            <p>Examining the overall layout of our terminal facility:</p>
+            
+            <div class="layout-image" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 20px 0;">
+                <div>
+                    <img src="/Users/mac/Documents/GitHub/gkalogistics/images/terminal-b/google-earth-view.png" alt="Terminal Layout 2" style="width: 100%; height: auto;">
+                </div>
+                <div>
+                    <img src="../images/terminal-b/layout%20quay%20warehouse%20terminal.png" alt="Terminal Layout" style="width: 100%; height: auto;">
+                </div>
+            </div>
+            
+            <div class="figure-caption" style="text-align: center; font-style: italic; margin-bottom: 20px;">Figure 1: Complete layout of the GK & A Logistics Terminal Facility</div>
+            
+            <p>This comprehensive layout shows how we've strategically organized our facility to maximize efficiency and operational flow. The design carefully balances the needs of cargo handling, storage, and transportation while maintaining security and compliance with international standards.</p>
+        </div>
+
+        <div class="section slide-section">
+            <h2>Key Facility Components</h2>
+            
+            <div class="facility-details">
+                <div class="detail-card">
+                    <h4>1. The Quay/Wharf: The Maritime Gateway</h4>
+                    <ul>
+                        <li><strong>Quay Apron Area</strong>: 37,305.84 m²</li>
+                        <li><strong>Quay Length</strong>: 1,232.2 m</li>
+                        <li><strong>Quay Width</strong>: 28.38 m</li>
+                    </ul>
+                    <p>This expansive waterfront infrastructure provides ample space for multiple vessel berthing and efficient cargo handling operations. The substantial length allows for simultaneous operations with several vessels, while the width accommodates various cargo types and handling equipment.</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h4>2. Total Area for GK & A Logistics operations</h4>
+                    
+                    <ul><li><strong>Terminal A & B with</strong>: 30,777.97 m²</li>
+                        <li><strong>Warehouse Space</strong>: 6,040.83 m²</li>
+                        <li><strong>Paved Stacking Area</strong>: 8,871.10 m²</li>
+                    </ul>
+                    <p>These areas provide secure, weather-protected storage for goods awaiting distribution or collection, as well as open-air stacking areas for larger cargo items.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section slide-section">
+            <h2>Infrastructure Development Story</h2>
+            
+            <div class="phase-container">
+                <div class="phase-card">
+                    <h4>Phase 1: Site Preparation and Foundation</h4>
+                    <p>Our development journey began with careful site preparation, ensuring the ground could support the heavy loads associated with maritime cargo operations. This involved:</p>
+                    <ul>
+                        <li>Geotechnical surveys to assess soil conditions</li>
+                        <li>Site clearing and grading</li>
+                        <li>Installation of proper drainage systems</li>
+                    </ul>
+                </div>
+                
+                <div class="phase-card">
+                    <h4>Phase 2: Quay Construction</h4>
+                    <p>The construction of our quay facility was a significant undertaking:</p>
+                    <ul>
+                        <li>Deep foundation work to support heavy loads</li>
+                        <li>Installation of reinforced concrete structures</li>
+                        <li>Implementation of marine-grade materials to withstand saltwater exposure</li>
+                    </ul>
+                </div>
+                
+                <div class="phase-card">
+                    <h4>Phase 3: Warehouse and Storage Development</h4>
+                    <p>With our maritime gateway established, we developed our storage facilities:</p>
+                    <ul>
+                        <li>Construction of climate-controlled warehouse spaces</li>
+                        <li>Development of paved stacking areas for outdoor storage</li>
+                        <li>Installation of security systems and lighting</li>
+                    </ul>
+                </div>
+                
+                <div class="phase-card">
+                    <h4>Phase 4: Security Infrastructure</h4>
+                    <p>Recognizing the importance of security in logistics operations, we implemented a comprehensive perimeter security system:</p>
+                    <ul>
+                        <li><strong>Perimeter Fence</strong>: 784.85 m of 2.44 m high galvanized mesh fencing</li>
+                        <li><strong>Security Gates</strong>: Vehicular and pedestrian access control</li>
+                        <li><strong>Barbed Wire Topping</strong>: Three-strand barbed wire for additional security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section slide-section">
+            <h2>Operational Capabilities</h2>
+            
+            <h3>Cargo Handling Capacity</h3>
+            <p>With our extensive quay length of <span class="highlight">1,232.2 meters</span>, we can accommodate multiple vessels simultaneously, significantly increasing our throughput capacity compared to smaller facilities.</p>
+            
+            <h3>Storage Flexibility</h3>
+            <p>Our combination of terminal area (<span class="highlight">30,777.97 m²</span>), warehouse space (<span class="highlight">6,040.83 m²</span>) and paved stacking area (<span class="highlight">8,871.10 m²</span>) allows us to handle diverse cargo types:</p>
+            <ul>
+                <li>Containerized goods in our warehouse facilities</li>
+                <li>Bulk cargo in our open stacking areas</li>
+                <li>Oversized equipment requiring specialized handling</li>
+            </ul>
+            
+            <h3>Security and Compliance</h3>
+            <p>Our facility meets international standards for security and operations:</p>
+            <ul>
+                <li>Full compliance with Nigerian Building Code</li>
+                <li>Adherence to BS EN standards for structural design</li>
+                <li>Implementation of ISO specifications for materials and coatings</li>
+                <li>Comprehensive security infrastructure with controlled access points</li>
+            </ul>
+        </div>
+
+        <div class="section slide-section">
+            <h2>Strategic Advantages</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 20px 0;">
+                <div>
+                    <h3>Location Benefits</h3>
+                    <p>Our position at the NPA Lighter Terminal, Ikorodu provides:</p>
+                    <ul>
+                        <li>Direct access to maritime shipping routes</li>
+                        <li>Connectivity to Lagos' extensive road network</li>
+                        <li>Proximity to major industrial and commercial centers</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3>Infrastructure Quality</h3>
+                    <p>Our facility features:</p>
+                    <ul>
+                        <li>Modern construction techniques and materials</li>
+                        <li>Robust infrastructure designed for heavy-duty use</li>
+                        <li>Comprehensive security systems</li>
+                        <li>Efficient layout for streamlined operations</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3>Scalability</h3>
+                    <p>The design of our facility allows for future expansion:</p>
+                    <ul>
+                        <li>Available land for additional warehouse construction</li>
+                        <li>Quay infrastructure with reserve capacity</li>
+                        <li>Utility systems designed with growth in mind</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section slide-section">
+            <h2>Additional Facility Images</h2>
+            <p>Here are additional images that showcase various aspects of our terminal facility:</p>
+            
+            <div class="facility-details" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
+                <div class="detail-card">
+                    <div class="layout-image">
+                        <img src="../images/terminal-b/Screenshot%202025-10-03%20at%2016.22.51.png" alt="Terminal View 1" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+                
+                <div class="detail-card">
+                    <div class="layout-image">
+                        <img src="../images/terminal-b/Screenshot%202025-10-03%20at%2016.23.28.png" alt="Terminal View 2" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+                
+                <div class="detail-card">
+                    <div class="layout-image">
+                        <img src="../images/terminal-b/Screenshot%202025-10-03%20at%2016.26.59.png" alt="Terminal View 3" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+                
+                <div class="detail-card">
+            
+                    <div class="layout-image">
+                        <img src="../images/terminal-b/mesh-fences.png" alt="Wire Mesh Fence" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+                
+          
+            </div>
+            
+            <p style="text-align: center; font-style: italic; margin-top: 20px;">Figure 2: Terminal facility images showcasing various aspects of the infrastructure</p>
+        </div>
+
+        <div class="conclusion slide-section same-page">
+            <h2>Conclusion</h2>
+            <p>The GK & A Logistics Terminal Facility represents a significant investment in Nigeria's maritime logistics infrastructure. Our strategic location, comprehensive facilities, and commitment to quality and security position us as an ideal partner for NEXIM's initiatives to promote Nigerian trade and economic development.</p>
+        </div>
+    </div>
+</body>
+</html>

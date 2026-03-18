@@ -1,0 +1,40 @@
+{
+  "name": "gkanda-logistics-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GK&A Logistics Services Ltd - Unified Monorepo for Website and Corporate Documentation",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/website",
+    "build": "npm run build --workspace=apps/website",
+    "start": "npm run start --workspace=apps/website",
+    "lint": "npm run lint --workspace=apps/website",
+    "test": "npm run test --workspace=apps/website",
+    "dev:website": "npm run dev --workspace=apps/website",
+    "build:website": "npm run build --workspace=apps/website"
+  },
+  "keywords": [
+    "logistics",
+    "maritime",
+    "ports",
+    "Nigeria",
+    "Ikorodu",
+    "NPA",
+    "inland-port"
+  ],
+  "author": "GK&A Logistics Services Ltd",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gkanda-logistics/gkanda-logistics-monorepo"
+  },
+  "devDependencies": {}
+}

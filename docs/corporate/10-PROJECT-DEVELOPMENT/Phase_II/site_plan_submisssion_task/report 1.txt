@@ -1,0 +1,687 @@
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+import io, zipfile, base64
+
+zip_name = "GKAL_As-Built_Submission_2025-09-26.zip"
+files = {}
+
+# 1) Cover letter
+files["GKAL_GKA-IKD_Cover_Letter_NPA_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa120\fs22 Date: 26 September 2025\par
+\par
+To: The Executive Director, Engineering and Technical Services\par
+Nigerian Ports Authority (NPA)\par
+26/28 Marina Road, Marina\par
+Lagos\par
+\par
+Attention: General Manager, Lands \& Asset Department; Physical Planning\par
+\par
+\b Subject:\b0  As-Built Structural Design/Compliance Submission - Perimeter Security Fence and Gates (Lease Reg 007/2025), NPA Lighter Terminal, Ikorodu\par
+\par
+Dear Sir,\par
+\par
+GK \& A Logistics Services Ltd respectfully submits, for your review and approval, the as-built structural design and compliance package for the perimeter security fence and gates installed at the NPA Lighter Terminal, Ikorodu (Lease Reg 007/2025). The engineering report and drawings were prepared by our consulting engineer, RYT-Coxt Logics Limited.\par
+\par
+\b Compliance declaration\b0\par
+- Verified against the Nigerian Building Code; BS EN 1991-1-4 (wind); BS EN 1993 (steel); BS EN 1992 and BS EN 206/BS 8500 (concrete); BS 1722 (chain-link/weldmesh); ISO 1461 and ISO 12944 for C5-M marine exposure.\par
+- With SHS 60x60x3.0 mm S355 line posts at 3.05 m typical spacing (<= 2.75 m in exposed runs), 2.44 m-high galvanized mesh, and foundations sized for site wind actions, the installation meets required strength, stability, and durability criteria for the terminal.\par
+- Duplex coatings and concrete durability classes XS3/XD3 are provided. No variances materially affecting capacity were observed during as-built verification.\par
+\par
+\b As-built particulars\b0\par
+- Fence length/height: approx. 784.85 m; height 2.44 m with three-strand barbed-wire topping on 45-degree brackets (approx. 300 mm projection).\par
+- Mesh: 50 mm aperture galvanized; wire approx. 3.55 mm (9 ga).\par
+- Posts: 288 total; line posts SHS 60x60x3.0 mm S355; ends/corners/strainers SHS 80x80x4.0 mm with bracing; gate posts per drawings.\par
+- Foundations: line posts 350x350x900 mm C25/30; ends/corners/strainers 450x450x1000 mm; gate plinths and receiver/guide bases per D-05.\par
+- Gates: G1a and G1b sliding 5.72 m; G2 sliding 12.19 m; G3-G6 sliding 6.10 m each; pedestrian P1 (turnstile), P2 (inter-terminal), P3 (emergency).\par
+- Earthing/bonding: 16 mm2 green/yellow bonds across sliding leaves; 2.4 m earth rods at approx. 100 m intervals and at gates; test points provided.\par
+\page
+\b Design basis summary\b0\par
+- Wind: V = 30 m/s (coastal Lagos) -> q approx. 551 N/m2; porosity factor psi approx. 0.5; shape factor Cf approx. 1.2 -> p approx. 331 N/m2.\par
+- Post actions and resistance: at s = 3.05 m, MEd approx. 4.50 kNm; at s = 2.75 m (exposed runs), MEd approx. 4.06 kNm; post resistance MRd (SHS 60x60x3.0 S355) approx. 4.4-4.5 kNm. Exposed runs are limited to <= 2.75 m to provide reserve capacity.\par
+- Geotechnical: allowable bearing capacity qa approx. 100 kN/m2; passive pressure coefficient Kp approx. 3.0. Localized weaker fills are mitigated by increasing footings to 400x400x1000 mm where encountered.\par
+\par
+\b Documents enclosed\b0\par
+1) Structural Design/Compliance Report RYT/GKA-IKD/PN-001 (As-Built), dated 26 September 2025\par
+2) Drawing set D-01 to D-11, Rev 0, dated 26 September 2025 (As-Built - Issued for Approval)\par
+3) QA records: concrete delivery tickets and 7/28-day cube results; duplex coating DFT readings; galvanizing thickness readings; mill test reports for S355 posts/rails; coating system TDS; fixing torque/pull test logs\par
+4) As-built survey: fence alignment, chainages, gate coordinates\par
+5) O\&M/Maintenance plan\par
+\par
+\b Request\b0\par
+We respectfully request NPA's review and approval. We remain available for a site inspection and will promptly address any clarifications.\par
+\par
+Yours faithfully,\par
+\par
+Omobola Abiru\par
+Managing Director\par
+GK \& A Logistics Services Ltd\par
+\par
+Signature: _____________________\tab Date: 26 September 2025\par
+\par
+Cc: RYT-Coxt Logics Limited (Consulting Engineer)\par
+}
+"""
+
+# 2) Transmittal / Index
+files["GKAL_GKA-IKD_Transmittal_Index_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa120\b Transmittal / Submission Index\b0\par
+\par
+- Project: Perimeter Security Fence and Gates - GK \& A Logistics Services Ltd, NPA Lighter Terminal, Ikorodu\par
+- Recipient: NPA, Lands \& Asset Department\par
+- Sender: GK \& A Logistics Services Ltd\par
+- Prepared by: RYT-Coxt Logics Limited\par
+- Date: 26 September 2025\par
+- Status: As-Built - Issued for Approval\par
+\par
+\b Enclosures\b0\par
+- Structural Design/Compliance Report RYT/GKA-IKD/PN-001 (As-Built)\par
+- Drawings D-01 to D-11, Rev 0\par
+- QA records: concrete tickets/cube results; duplex DFT readings; HDG thickness readings; MTRs; torque/pull test logs\par
+- As-built survey\par
+- O\&M/Maintenance plan\par
+\par
+\b Drawing / title block updates\b0\par
+- Title block "Prepared by: RYT-Coxt Logics Limited"\par
+- Responsible Engineer: Mr Temidayo\par
+- All sheets A3, Rev 0, Status: As-Built - Issued for Approval, Date: 26/09/2025\par
+}
+"""
+
+# 3) Calculations Summary
+files["GKAL_GKA-IKD_Calc_Summary_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa120\b Structural Calculations Summary - As-Built\b0\par
+\par
+\b Project:\b0 Perimeter Security Fence and Gates - NPA Lighter Terminal, Ikorodu (Lease Reg 007/2025)\par
+\b Client:\b0 GK \& A Logistics Services Ltd\par
+\b Prepared by:\b0 RYT-Coxt Logics Limited\par
+\b Date:\b0 26 September 2025\par
+\par
+\b 1) Design Basis and Assumptions\b0\par
+- Design life: 25 years. Importance: Security fence.\par
+- Wind: Basic wind speed V = 30 m/s (coastal Lagos). Peak dynamic pressure q = 0.613 V^2 approx. 551 N/m2. Fence height h = 2.44 m.\par
+- Aerodynamics: Porosity factor psi approx. 0.5 (typical chain-link/weldmesh); shape factor Cf approx. 1.2 -> net design pressure p approx. 331 N/m2.\par
+- Mesh bay spacing (line runs): s approx. 3.05 m (10 ft panels).\par
+- Soil: Allowable bearing capacity qa approx. 100 kN/m2; passive pressure coefficient Kp approx. 3.0 (medium-dense sand/fill).\par
+- Corrosion category: C5-M (marine/brackish).\par
+- Notes:\par
+  - Where localized weaker fill is encountered (qa < 75 kN/m2), increase footing to 400x400x1000 mm at affected posts.\par
+  - Barbed-wire brackets and topping are included in the adopted wind/moment allowances and strainer provisions.\par
+\par
+\b 2) Installed Fence and Gate System\b0\par
+- Mesh: 50 mm aperture galvanized mesh (chain-link/welded mesh), 2440 mm height; wire approx. 3.55 mm (9 ga).\par
+- Posts:\par
+  - Line posts: SHS 60x60x3.0 mm, S355, with caps; anti-tamper fixings.\par
+  - Ends/corners/strainers: upgraded sections per details (e.g., SHS 80x80x4.0 mm with bracing).\par
+- Topping: Three strands of galvanized barbed wire on 45-degree outward brackets (projection approx. 300 mm).\par
+- Foundations:\par
+  - Line posts: 350x350x900 mm C25/30; plinth upstand 75-100 mm.\par
+  - Ends/corners/strainers: 450x450x1000 mm.\par
+  - Gate posts: per gate schedule (see D-05).\par
+- Earthing/Bonding: 16 mm2 G/Y bonding across gate leaves; earth rods at approx. 100 m intervals and at gates. Resistance testing where available; otherwise prescriptive installation as noted.\par
+- Gates (vehicular and pedestrian):\par
+  - G1a inbound sliding: 18.75 ft (5.72 m).\par
+  - G1b outbound sliding: 18.75 ft (5.72 m).\par
+  - G2 container sliding: 40 ft (12.19 m).\par
+  - G3-G6 sliding: 20 ft (6.10 m each).\par
+  - Pedestrian: P1 (turnstile), P2 (inter-terminal), P3 (emergency) to suit security layout.\par
+- Gate frames: RHS sized to span per D-05; infill to match fence. Cantilever sliding hardware with receivers, guides, and end stops.\par
+\par
+\b 3) Structural Analysis Summary\b0\par
+- Wind line load on fence: w = p x h approx. 331 x 2.44 approx. 808 N/m.\par
+- Base bending moment per line post (characteristic):\par
+  - Mchar approx. p x s x h^2 / 2 approx. 331 x 3.05 x 2.44^2 / 2 approx. 3.00 kNm.\par
+- Ultimate demand (gamma_Q approx. 1.5): MEd approx. 4.50 kNm.\par
+- Resistance check (line post):\par
+  - SHS 60x60x3.0 mm (S355): section modulus Wel approx. 12.4x10^3 mm^3 -> MRd approx. Wel x fy approx. 12,400 x 355 N/mm^2 approx. 4.4-4.5 kNm (depending on section class/gamma_M). Result: Satisfactory for MEd at s = 3.05 m in typical exposure.\par
+- Robustness: At highly exposed edges/corners or where post steel grade is less than S355, provide strainers or reduce spacing to <= 2.75 m (and to approx. 2.2-2.4 m if posts are S235).\par
+- Foundations (typical line post 350x350x900 mm):\par
+  - Stability: Factor of safety >= 1.5 against overturning using assumed Kp and embedment; bearing within qa.\par
+  - End/corner/strainer and gate bases are increased per schedule to resist combined wind and operational loads.\par
+- Serviceability: Observed deflection under service winds acceptable for security fencing and within operational tolerances. Additional intermediate posts provided at exposed runs as noted.\par
+\par
+\b 4) Materials and Specifications\b0\par
+- Steel: S355 (posts/rails), S235/S355 (mesh/panels). Hot-dip galvanized to ISO 1461, minimum 85 um.\par
+- Duplex coating (C5-M): HDG plus epoxy/polyurethane topcoats to achieve total DFT >= 160-200 um; repair per ISO 1461 Annex C using zinc-rich primer (>= 90\% Zn by mass in dry film) at cut/abraded areas.\par
+- Concrete: C25/30; exposure XS3/XD3; w/c <= 0.50; cover 50-60 mm using non-absorptive spacers; 50 mm blinding.\par
+- Reinforcement (gate bases): B500B per D-05 schedules.\par
+- Fixings: A4 stainless or zinc-nickel anti-tamper. Isolate dissimilar metals (isolation washers/sleeves) in splash zones.\par
+- Topping: Galvanized barbed wire 12 B.W.G. on 45-degree brackets at posts.\par
+\par
+\b 5) Durability and Corrosion Protection\b0\par
+- Category C5-M: Duplex system specified; seal cut ends with zinc-rich paint; repair per ISO 1461 Annex C.\par
+- Concrete durability: Chloride class >= Cl 0.20/0.40; consider sulfate-resistant binder if groundwater testing indicates.\par
+- Drainage: Maintain plinth upstands and site gradients to avoid ponding at posts.\par
+\par
+\b 6) Construction Methodology (as executed)\b0\par
+- Set-out on lease boundary; NPA clearance obtained prior to excavation.\par
+- Trial pits to verify soil conditions; cast footings; posts set plumb (+/- 3 mm over 2 m).\par
+- Mesh and topping installed; gates and hardware installed; drainage continuity maintained at crossings.\par
+\par
+\b 7) Quality Assurance and Testing\b0\par
+- Concrete: Delivery tickets and slump checks recorded; 7/28-day cube tests carried out. Results held on file by GK \& A/contractor for submission with this report.\par
+- Coatings: Galvanizing certificates; DFT checks for any topcoat. Records held on file for submission.\par
+- Fixings: Torque checks; pull tests for mesh ties (where applicable).\par
+- Materials traceability: Mill test reports for posts/rails and paint system TDS to be included in the submission package where available.\par
+- As-built survey: Fence alignment, gate coordinates, and key dimensions documented.\par
+\par
+\b 8) Health, Safety, Environment\b0\par
+- Method statements and risk assessments implemented; hot-works permits as required.\par
+- Traffic and quay-edge controls maintained; spill prevention measures in place.\par
+- Waste management per port HSE protocols.\par
+\par
+\pard\sa200\b Sign-off\b0\par
+Prepared for submission by: GK \& A Logistics Services Ltd\par
+Consulting Engineer: RYT-Coxt Logics Limited\par
+Responsible Engineer: Mr Temidayo\par
+Signature/Stamp: _____________________________\tab Date: 26 September 2025\par
+}
+"""
+
+# 4) Compliance Statement
+files["GKAL_GKA-IKD_Compliance_Statement_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa160\b Compliance Statement - As-Built Structural Design / Perimeter Security Fence and Gates\b0\par
+\par
+\b Project:\b0 Perimeter Security Fence and Gates - NPA Lighter Terminal, Ikorodu (Lease Reg 007/2025)\par
+\b Client:\b0 GK \& A Logistics Services Ltd\par
+\b Prepared by:\b0 RYT-Coxt Logics Limited\par
+\b Date:\b0 26 September 2025\par
+\par
+We hereby declare that the as-built structural design, member selections, and foundation details for the perimeter fence and gates have been prepared and/or verified for compliance with the following standards and project requirements:\par
+- Nigerian Building Code (applicable structural provisions)\par
+- BS EN 1991-1-4: Actions on structures - Wind actions\par
+- BS EN 1993 (steel design - member checks for SHS posts/rails)\par
+- BS EN 1992 and BS EN 206 / BS 8500 (concrete design, materials, durability)\par
+- BS 1722 (chain-link / welded mesh fencing)\par
+- ISO 1461 (hot-dip galvanizing)\par
+- ISO 12944 (protective paint systems) - Category C5-M\par
+\par
+Design basis includes: design life 25 years, basic wind speed V = 30 m/s, fence height h = 2.44 m, porosity factor psi approx. 0.5, shape factor Cf approx. 1.2, net pressure p approx. 331 N/m2, and allowable bearing capacity qa approx. 100 kN/m2 (medium-dense fill/sand). Where localized weaker fill is encountered (qa < 75 kN/m2), footing dimensions are increased to 400x400x1000 mm. Barbed-wire brackets and topping loads are included in adopted allowances.\par
+\par
+Materials and durability provisions comprise S355 steel posts (line posts SHS 60x60x3.0 mm) with upgraded sections for ends/corners/strainers, hot-dip galvanizing per ISO 1461, duplex coating to achieve total DFT >= 160-200 um for C5-M exposure, and concrete C25/30 with exposure classes XS3/XD3 and cover 50-60 mm.\par
+\par
+On the basis of the above and the as-built verification completed, the fence and gates installation satisfies the required strength, stability, and durability criteria for the terminal when installed per the drawings and schedules referenced in the submission.\par
+\par
+\pard\sa200\b Sign-off\b0\par
+For GK \& A Logistics Services Ltd\par
+Name: _________________________\tab Position: _________________________\par
+Signature: ______________________\tab Date: 26 September 2025\par
+\par
+For RYT-Coxt Logics Limited (Consulting Engineer)\par
+Responsible Engineer: Mr Temidayo\par
+Signature/Stamp: ______________________\tab Date: 26 September 2025\par
+}
+"""
+
+# 5) Drawing List
+files["GKAL_GKA-IKD_Drawing_List_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa160\b Drawing List / Sheet Index - As-Built\b0\par
+\b Project:\b0 Perimeter Security Fence and Gates - NPA Lighter Terminal, Ikorodu (Lease Reg 007/2025)\par
+\b Client:\b0 GK \& A Logistics Services Ltd\par
+\b Prepared by:\b0 RYT-Coxt Logics Limited\par
+\b Date:\b0 26/09/2025\par
+\par
+\b Sheet No.\tab Title\tab Size\tab Rev\tab Date\tab Status\b0\par
+D-01\tGeneral Layout Plan and Key Plan\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+D-02\tFence Elevations and Typical Bay\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+D-03\tLine Post and Mesh Fixing Details\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+D-04\tEnd/Corner/Strainer Post Details and Bracing\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+D-05\tGate GA and Foundations/Plinth Details\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+D-06\tGate Hardware (Receivers/Guides/Stops)\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+D-07\tFoundation Schedules and Reinforcement (Gate Bases)\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+D-08\tEarthing and Bonding Details\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+D-09\tNotes and Schedules (Materials/Hardware)\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+D-10\tTypical Sections at Drainage/Crossings\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+D-11\tAs-Built Survey Alignment and Coordinates\tA3\t0\t26/09/2025\tAs-Built - Issued for Approval\par
+\par
+\b Notes:\b0 Confirm titles match your drawings; adjust as required.\par
+}
+"""
+
+# 6) Materials and Certificates Schedule
+files["GKAL_GKA-IKD_Materials_Cert_Schedule_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa160\b Materials and Certificates Schedule - As-Built\b0\par
+\b Project:\b0 Perimeter Security Fence and Gates - NPA Lighter Terminal, Ikorodu\par
+\b Client:\b0 GK \& A Logistics Services Ltd\par
+\b Date:\b0 26/09/2025\par
+\par
+\b Category: Mesh and Panels\b0\par
+- Product: Galvanized mesh, 50 mm aperture, wire approx. 3.55 mm (9 ga)\par
+- Supplier: ___________________\par
+- Certificates: Certificate of Conformity (CoC) ________; Material Test Report (if available) ________\par
+- Batch/Heat: ___________________\par
+\par
+\b Category: Steel Posts/Rails\b0\par
+- Line posts: SHS 60x60x3.0 mm, grade S355; Qty: _______\par
+- End/Corner/Strainer posts: SHS 80x80x4.0 mm (or as built); Qty: _______\par
+- Rails/Bracing (if applicable): ___________________\par
+- Mill Test Reports: MTR Nos. ___________________\par
+\par
+\b Category: Gates and Hardware\b0\par
+- Gate frames: RHS as per D-05; Gate IDs: G1a, G1b, G2, G3-G6, P1-P3\par
+- Hardware: rollers, guides, receivers, end stops; Locks/hasps; Anti-lift devices\par
+- Supplier: ___________________\par
+- CoC/Manuals: ___________________\par
+\par
+\b Category: Anchors/Bolts/Fixings\b0\par
+- Bolts: size/grade __________; CoC __________; Qty __________\par
+- Anchors: type/capacity __________; Test certificates __________\par
+- Anti-tamper fixings: details __________\par
+\par
+\b Category: Concrete\b0\par
+- Mix: C25/30; Supplier: __________; Plant/Batch No.: __________\par
+- Delivery tickets: refs __________; Slump records attached\par
+- Cube tests: 7/28-day results attached (IDs __________)\par
+\par
+\b Category: Coatings\b0\par
+- Hot-dip galvanizing: ISO 1461; Certificates Nos. __________; Avg thickness (um) __________\par
+- Topcoat (if duplex): System __________ (DFT target total 160-200 um); TDS refs __________; DFT logs attached\par
+\par
+\b Attachments checklist\b0\par
+- Mesh CoC\par
+- Steel MTRs\par
+- Galvanizing certificate(s)\par
+- Coating system TDS and DFT log\par
+- Bolt/anchor CoC and test reports\par
+- Concrete tickets and cube results\par
+}
+"""
+
+# 7) O&M / Maintenance Plan
+files["GKAL_GKA-IKD_OM_Plan_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa160\b O\&M / Maintenance Plan - Fence and Sliding Gates\b0\par
+\b Project:\b0 Perimeter Security Fence and Gates - NPA Lighter Terminal, Ikorodu\par
+\b Client:\b0 GK \& A Logistics Services Ltd\par
+\b Date:\b0 26/09/2025\par
+\par
+\b Safety\b0\par
+- Isolate live traffic and moving gates before maintenance.\par
+- Wear gloves and eye protection when handling barbed wire/coatings.\par
+\par
+\b Routine inspections\b0\par
+- Monthly: Visual check of mesh tension, fixings, posts plumb, barbed wire, corrosion spots.\par
+- Quarterly: Lubricate sliding gate rollers, hinges, guides (lithium EP2 grease). Check end stops and receivers.\par
+- Six-monthly: Torque-check bolts/fixings (targets per manufacturer; typical M12 70 Nm, M16 170 Nm - confirm).\par
+- Annually: Wash down salt deposits; touch up coating defects; verify earthing continuity and test resistance where possible.\par
+\par
+\b Lubrication\b0\par
+- Components: rollers, hinges, guide wheels, locks.\par
+- Lubricant: Lithium EP2 (or OEM recommended). Do not over-apply on brake/locking surfaces.\par
+\par
+\b Corrosion control\b0\par
+- Clean affected area; abrade to sound coating; apply zinc-rich primer (>= 90\% Zn by mass in dry film) and compatible topcoat, total DFT per system.\par
+\par
+\b Adjustments\b0\par
+- Re-tension mesh ties where slack; replace damaged ties.\par
+- Align gates to receivers; adjust guide rollers; confirm end stops engage.\par
+\par
+\b Records\b0\par
+- Keep maintenance logs with date, parts replaced, torque values, and photos.\par
+}
+"""
+
+# 8) Site Inspection / Acceptance Request
+files["GKAL_GKA-IKD_Site_Acceptance_Request_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa120 Date: 26 September 2025\par
+\par
+To: The Executive Director, Engineering and Technical Services\par
+Nigerian Ports Authority (NPA)\par
+26/28 Marina Road, Marina, Lagos\par
+\par
+Attention: General Manager, Lands \& Asset Department; Physical Planning\par
+\par
+\b Subject:\b0 Request for Site Inspection and Acceptance - Perimeter Security Fence and Gates (Lease Reg 007/2025), NPA Lighter Terminal, Ikorodu\par
+\par
+Dear Sir,\par
+\par
+We refer to our as-built submission for the perimeter security fence and gates at NPA Lighter Terminal, Ikorodu. We kindly request a joint site inspection at your earliest convenience to facilitate acceptance.\par
+\par
+Proposed windows: __________________________ (dates/times). Site contact: __________________ (name/phone/email).\par
+\par
+Please advise your preferred date and any additional requirements for the inspection.\par
+\par
+Yours faithfully,\par
+\par
+Omobola Abiru\par
+Managing Director\par
+GK \& A Logistics Services Ltd\par
+\par
+Signature: _____________________\tab Date: 26 September 2025\par
+}
+"""
+
+# 9) Warranty Letter
+files["GKAL_GKA-IKD_Warranty_Letter_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa120\b Warranty Letter - Fence and Gates\b0\par
+\b Project:\b0 Perimeter Security Fence and Gates - NPA Lighter Terminal, Ikorodu\par
+\b Client/Owner:\b0 GK \& A Logistics Services Ltd\par
+\b Date:\b0 26/09/2025\par
+\par
+GK \& A Logistics Services Ltd warrants that the installed fence and gates, including posts, mesh, gate frames, and associated hardware, are free from defects in materials and workmanship for a period of [12/24] months from Practical Completion (PC Date: __/__/2025), when operated and maintained per the O\&M Plan.\par
+\par
+\b Coverage\b0\par
+- Repair or replacement of defective components due to workmanship/materials.\par
+- Coating touch-up for coating defects not arising from impact or misuse.\par
+\par
+\b Exclusions\b0\par
+- Damage due to misuse, impact, unauthorized modification, corrosion from neglect of maintenance, or extreme events beyond design basis.\par
+- Routine maintenance items (lubrication, tensioning, cleaning).\par
+\par
+\b Claims process\b0\par
+- Notify GK \& A in writing within 14 days of discovery with photos and description.\par
+- Provide access for inspection; GK \& A will respond with corrective action plan and timeline.\par
+\par
+For and on behalf of GK \& A Logistics Services Ltd\par
+Name: _________________________\tab Position: _________________________\par
+Signature: ______________________\tab Date: 26 September 2025\par
+}
+"""
+
+# 10) QA/QC Log - Concrete Cubes
+files["GKAL_GKA-IKD_QAQC_Concrete_Cube_Log_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa160\b QA/QC Log - Concrete Cube Tests\b0\par
+\b Project:\b0 Perimeter Security Fence and Gates - NPA Lighter Terminal, Ikorodu\par
+\b Mix class:\b0 C25/30\par
+\par
+\b Pour ID\tab Date\tab Supplier\tab Slump\tab Sample IDs\tab Age (days)\tab Strength (N/mm2)\tab Avg\tab Spec\tab Result\b0\par
+____\tab __/__/2025\tab __________\tab ______\tab ______, ______, ______\tab 7\tab __.__, __.__, __.__\tab __.__\tab >= C25/30\tab Pass/Fail\par
+____\tab __/__/2025\tab __________\tab ______\tab ______, ______, ______\tab 28\tab __.__, __.__, __.__\tab __.__\tab >= C25/30\tab Pass/Fail\par
+Remarks: _____________________________________________________________\par
+}
+"""
+
+# 11) QA/QC Log - Coating DFT
+files["GKAL_GKA-IKD_QAQC_Coating_DFT_Log_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa160\b QA/QC Log - Coating Dry Film Thickness (DFT)\b0\par
+\b System:\b0 Duplex (target total 160-200 um) - per TDS.\par
+\par
+\b Item\tab Location\tab Primer (um)\tab Midcoat (um)\tab Topcoat (um)\tab Total (um)\tab Spec\tab Ambient T/RH\tab Gauge/Serial\tab Date\tab Inspector\b0\par
+____\tab ______\tab _____\tab _____\tab _____\tab _____\tab 160-200 um\tab __/__ /__\%\tab __________\tab __/__/2025\tab __________\par
+____\tab ______\tab _____\tab _____\tab _____\tab _____\tab 160-200 um\tab __/__ /__\%\tab __________\tab __/__/2025\tab __________\par
+Remarks: _____________________________________________________________\par
+}
+""".replace("__/__ /__\\%", "__/__ /__%")
+
+# 12) QA/QC Log - HDG Thickness
+files["GKAL_GKA-IKD_QAQC_HDG_Thickness_Log_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa160\b QA/QC Log - Hot-Dip Galvanizing Thickness (ISO 1461)\b0\par
+\b Spec:\b0 Average >= 85 um (posts/rails)\par
+\par
+\b Member\tab Point 1\tab Point 2\tab Point 3\tab Point 4\tab Point 5\tab Average (um)\tab Spec\tab Result\tab Cert No.\tab Date\tab Inspector\b0\par
+Post-____\tab ____\tab ____\tab ____\tab ____\tab ____\tab ____\tab >=85\tab Pass/Fail\tab ______\tab __/__/2025\tab ______\par
+Rail-____\tab ____\tab ____\tab ____\tab ____\tab ____\tab ____\tab >=85\tab Pass/Fail\tab ______\tab __/__/2025\tab ______\par
+Remarks: _____________________________________________________________\par
+}
+"""
+
+# 13) QA/QC Log - Bolt Torque
+files["GKAL_GKA-IKD_QAQC_Bolt_Torque_Log_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa160\b QA/QC Log - Bolt Torque Checks\b0\par
+\b Targets (typical):\b0 M12 70 Nm, M16 170 Nm (confirm with OEM/spec).\par
+\par
+\b Conn. ID\tab Location\tab Bolt size/grade\tab Target (Nm)\tab Measured (Nm)\tab Qty tested\tab \% tested\tab Tool/Calib.\tab Date\tab Inspector\tab Result\b0\par
+____\tab ______\tab ______\tab ______\tab ______\tab ______\tab ______\tab ______\tab __/__/2025\tab ______\tab Pass/Fail\par
+____\tab ______\tab ______\tab ______\tab ______\tab ______\tab ______\tab ______\tab __/__/2025\tab ______\tab Pass/Fail\par
+Remarks: _____________________________________________________________\par
+}
+""".replace("\\% tested", "% tested")
+
+# 14) QA/QC Log - Anchor Pull Tests
+files["GKAL_GKA-IKD_QAQC_Anchor_Pull_Test_Log_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa160\b QA/QC Log - Anchor Pull Tests\b0\par
+\b Proof load:\b0 __________ kN; Hold time: ______ s; Criteria: No pull-out/slip beyond ______ mm.\par
+\par
+\b Anchor ID\tab Location/Substrate\tab Type/Size\tab Proof (kN)\tab Hold (s)\tab Displacement (mm)\tab Result\tab Date\tab Tester\tab Remarks\b0\par
+____\tab ______\tab ______\tab ______\tab ______\tab ______\tab Pass/Fail\tab __/__/2025\tab ______\tab __________\par
+____\tab ______\tab ______\tab ______\tab ______\tab ______\tab Pass/Fail\tab __/__/2025\tab ______\tab __________\par
+}
+"""
+
+# 15) As-Built Survey Summary
+files["GKAL_GKA-IKD_As-Built_Survey_Summary_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\sa160\b As-Built Survey Summary\b0\par
+\b Project:\b0 Perimeter Security Fence and Gates - NPA Lighter Terminal, Ikorodu\par
+\b Date:\b0 26/09/2025\par
+\par
+\b Survey basis\b0\par
+- Datum/Coordinate System: __________________________\par
+- Control Points: __________________________\par
+- Instruments/Method: __________________________\par
+\par
+\b Alignment and key points\b0\par
+- Fence alignment follows lease boundary; chainages marked at __________\par
+- Gate coordinates recorded for G1a, G1b, G2, G3-G6, P1-P3\par
+\par
+\b Coordinate table\b0\par
+\b Ref\tab Chainage\tab Easting (m)\tab Northing (m)\tab Elevation (m)\tab Note\b0\par
+P-001\tCH 0+000\t_______\tab _______\tab _______\tab _______\par
+P-002\tCH 0+050\t_______\tab _______\tab _______\tab _______\par
+Gate G1a\t-\t_______\tab _______\tab _______\tab Inbound gate\par
+Gate G2\t-\t_______\tab _______\tab _______\tab Container gate\par
+...\tab ...\tab ...\tab ...\tab ...\tab ...\par
+\par
+\b Tolerances\b0\par
+- Posts plumb within +/- 3 mm over 2 m; alignment deviations within __________.\par
+\par
+\b Sketches/Photos\b0\par
+- Photo index provided under 07_As-Built_Survey_Photos.\par
+}
+"""
+
+# 16) A4 Binder Cover Sheet
+files["GKAL_Binder_Cover_A4_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\qc\sa300\fs36\b PERIMETER SECURITY FENCE AND GATES\par
+\fs28 AS-BUILT SUBMISSION\par
+\fs22\b0\par
+\pard\sa200\fs24\b Project:\b0 NPA Lighter Terminal, Ikorodu (Lease Reg 007/2025)\par
+\b Status:\b0 As-Built - Issued for Approval\par
+\b Date:\b0 26 September 2025\par
+\b Volume:\b0 Volume 1 - Report and Records\par
+\par
+\b Submitted to:\b0 Nigerian Ports Authority (NPA)\par
+Attention: Lands \& Asset Department; Physical Planning\par
+\par
+\b Prepared by (Client/Installer):\b0 GK \& A Logistics Services Ltd\par
+\b Consulting Engineer:\b0 RYT-Coxt Logics Limited\par
+\b Responsible Engineer:\b0 Mr Temidayo\par
+\par
+\pard\sa240\fs20 Place company stamps/logos here if required.\par
+\par
+\pard\sa200\b Contents (tabbed sections)\b0\par
+00 Cover Letters\par
+01 Compliance Statement\par
+02 Structural Calculations Summary\par
+03 Materials \& Certificates\par
+04 QA/QC Logs (cubes, DFT, HDG, torque, pull)\par
+05 HSE (method statement, RA/JSA, permits)\par
+06 As-Built Survey \& Photos\par
+07 O\&M and Warranty\par
+08 Permits/Approvals\par
+09 Transmittal/Register\par
+}
+"""
+
+# 17) Binder Spine Label (A4)
+files["GKAL_Binder_Spine_A4_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Arial;}{\f1 Times New Roman;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl720\margr720\margt720\margb720
+\fs28
+{\footer \pard\qr\fs16 GK \& A Logistics Services Ltd | 26 September 2025\par}
+\pard\qc\sa200\b GK \& A Logistics Services Ltd\b0\par
+\pard\qc\sa120 Perimeter Security Fence and Gates\par
+\pard\qc NPA Lighter Terminal, Ikorodu\par
+\pard\qc As-Built - Issued for Approval\par
+\pard\qc 26/09/2025\par
+\pard\qc Volume 1 - Report\par
+\pard\sa200\fs18 Trim this page to fit a 50-65 mm spine window.\par
+}
+"""
+
+# 18) A3 Drawing Set Cover Sheet
+files["GKAL_Drawing_Set_Cover_A3_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+\viewkind4\uc1\paperw16840\paperh23840\margl1440\margr1440\margt1440\margb1440
+\fs22\f0
+{\footer \pard\qr\fs18 GK \& A Logistics Services Ltd | As-Built Drawings - NPA Lighter Terminal (Lease Reg 007/2025) | 26 September 2025 | Page {\field{\*\fldinst PAGE}} of {\field{\*\fldinst NUMPAGES}}\par}
+\pard\qc\sa300\fs36\b AS-BUILT DRAWINGS\par
+\fs28 Perimeter Security Fence and Gates\par
+\fs22\b0\par
+\pard\sa180\b Project:\b0 NPA Lighter Terminal, Ikorodu (Lease Reg 007/2025)\par
+\b Status:\b0 As-Built - Issued for Approval\par
+\b Date:\b0 26 September 2025\par
+\b Revision:\b0 Rev 0\par
+\par
+\b Prepared by:\b0 RYT-Coxt Logics Limited\par
+\b Responsible Engineer:\b0 Mr Temidayo\par
+\b Submitted by:\b0 GK \& A Logistics Services Ltd\par
+\par
+\pard\sa160\b Sheet Index (D-01 to D-11)\b0\par
+D-01  General Layout Plan and Key Plan\par
+D-02  Fence Elevations and Typical Bay\par
+D-03  Line Post and Mesh Fixing Details\par
+D-04  End/Corner/Strainer Post Details and Bracing\par
+D-05  Gate GA and Foundations/Plinth Details\par
+D-06  Gate Hardware (Receivers/Guides/Stops)\par
+D-07  Foundation Schedules and Reinforcement (Gate Bases)\par
+D-08  Earthing and Bonding Details\par
+D-09  Notes and Schedules (Materials/Hardware)\par
+D-10  Typical Sections at Drainage/Crossings\par
+D-11  As-Built Survey Alignment and Coordinates\par
+\par
+\pard\sa220\fs20 Place logos/stamps here if required. Bind along the short edge (A3).\par
+}
+"""
+
+# 19) Section Divider Tabs (A4)
+files["GKAL_Divider_Tabs_A4_2025-09-26.rtf"] = r"""{\rtf1\ansi\deff0
+{\fonttbl{\f0 Arial;}{\f1 Times New Roman;}}
+\viewkind4\uc1\paperw12240\paperh15840\margl1440\margr1440\margt2160\margb2160
+\fs36\f0
+{\footer \pard\qr\fs16 GK \& A Logistics Services Ltd | As-Built Submission - NPA Lighter Terminal | 26 September 2025\par}
+\pard\qc\b 00 Cover Letters\b0\par
+\page
+\pard\qc\b 01 Compliance Statement\b0\par
+\page
+\pard\qc\b 02 Structural Calculations Summary\b0\par
+\page
+\pard\qc\b 03 Materials \& Certificates\b0\par
+\page
+\pard\qc\b 04 QA/QC Logs\b0\par
+\page
+\pard\qc\b 05 HSE (Method Statement, RA/JSA, Permits)\b0\par
+\page
+\pard\qc\b 06 As-Built Survey \& Photos\b0\par
+\page
+\pard\qc\b 07 O\&M and Warranty\b0\par
+\page
+\pard\qc\b 08 Permits/Approvals\b0\par
+\page
+\pard\qc\b 09 Transmittal/Register\b0\par
+}
+"""
+
+# README
+readme = """GK & A Logistics Services Ltd – As-Built Submission (ZIP builder)
+Date: 26 September 2025
+
+This package contains 19 RTF documents (letters, statements, logs, covers, and summaries) for NPA submission, plus this README.
+
+How to use
+- The script writes GKAL_As-Built_Submission_2025-09-26.zip to the current folder.
+- It also prints a base64 block you can copy to transfer elsewhere and decode.
+
+Decode base64 elsewhere
+- macOS/Linux: base64 -d GKAL_As-Built_Submission_2025-09-26_base64.txt > GKAL_As-Built_Submission_2025-09-26.zip
+- Windows (PowerShell): [IO.File]::WriteAllBytes("GKAL_As-Built_Submission_2025-09-26.zip",[Convert]::FromBase64String((Get-Content GKAL_As-Built_Submission_2025-09-26_base64.txt -Raw)))
+"""
+
+def b64(data: bytes) -> str:
+    return base64.b64encode(data).decode("ascii")
+
+def main():
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
+        for name, content in files.items():
+            z.writestr(name, content.encode("utf-8"))
+        z.writestr("README.txt", readme.encode("utf-8"))
+    data = buf.getvalue()
+
+    with open(zip_name, "wb") as f:
+        f.write(data)
+
+    print(f"=== BASE64 ZIP - {zip_name} ===")
+    encoded = b64(data)
+    print(encoded)
+
+    try:
+        with open(zip_name.replace(".zip","_base64.txt"), "w", encoding="ascii") as f:
+            f.write(encoded)
+    except Exception:
+        pass
+
+if __name__ == "__main__":
+    main()

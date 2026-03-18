@@ -1,0 +1,116 @@
+{
+    "company_name": "GK&A Logistics Services Ltd",
+    "operating_entities": [
+        "GK&A Logistics Services Limited",
+        "GK&A Terminal Harbour Limited",
+        "GK&A Port Infrastructure PTE. LTD."
+    ],
+    "mission": "Developing the Ikorodu Regional Inland Port as a critical multimodal alternative to congested legacy ports.",
+    "target_go_live": "Q2/Q3 2026",
+    "leadership": [
+        {
+            "name": "Omobola Abiru",
+            "title": "Managing Director"
+        },
+        {
+            "name": "Adegboriaye Moshood Abiru",
+            "title": "Director"
+        },
+        {
+            "name": "Bamidele Addy Abiru",
+            "title": "Director"
+        }
+    ],
+    "contact": {
+        "phone": "+234 703 834 1611",
+        "emails": {
+            "general": "info@gkaports.com",
+            "managing_director": "mobola.abiru@gkaports.com",
+            "it_admin": "tomide.adeoye@gkaports.com"
+        },
+        "website": "https://gkaports.com/"
+    },
+    "team": {
+        "it_admin": {
+            "name": "Tomide Adeoye",
+            "phone": "+234 818 192 7251"
+        }
+    },
+    "locations": {
+        "registered_office": "No 6, Femi Okunnu Road, Ikoyi, Lagos State, Nigeria",
+        "operational_facility": "NPA Lighter Terminal, Ikorodu, Lagos State, Nigeria"
+    },
+    "facility_metrics": {
+        "total_footprint_hectares": 20.3,
+        "total_footprint_sqm": 203351,
+        "active_hub_sqm": 36000,
+        "annual_capacity_teu": 10000,
+        "quay_wall_length_m": 540,
+        "quay_apron_length_m": 320,
+        "warehouse_capacity_sqm": 4460,
+        "paved_stacking_yard_sqm": 40000,
+        "truck_staging_capacity": 300
+    },
+    "technology_and_operations": {
+        "cold_chain": [
+            "Real-time temperature telemetry",
+            "Dedicated reefer power racks",
+            "Continuous monitoring integrated via TOS"
+        ],
+        "gate_automation": [
+            "Automated OCR/ANPR Gates",
+            "Digital truck appointment booking portal",
+            "SMS notifications"
+        ],
+        "software": [
+            "Customs Single-Window API Link",
+            "Full Yard Inventory & WMS batch tracking (FEFO/FIFO rules)",
+            "Terminal Operating System (TOS)"
+        ]
+    },
+    "regulatory_framework": [
+        {
+            "agency": "Nigerian Ports Authority (NPA)",
+            "approval": "Terminal Operating License"
+        },
+        {
+            "agency": "Nigerian Inland Waterways Authority (NIWA)",
+            "approval": "Inland Waterway Operations License"
+        },
+        {
+            "agency": "Nigeria Customs Service (NCS)",
+            "approval": "Direct Ship Call Approval (Section 14 CEMA)"
+        },
+        {
+            "agency": "Lagos State Environmental Protection Agency",
+            "approval": "Environmental Impact Assessment Approved"
+        },
+        {
+            "agency": "Land Use Act Compliance",
+            "approval": "Right of Occupancy Documentation"
+        }
+    ],
+    "competitive_moats": [
+        {
+            "title": "Section 14 CEMA (Direct Ship Call)",
+            "description": "Bypasses standard bonded terminal bottlenecks for immediate customs clearance."
+        },
+        {
+            "title": "Lagoon-to-Ocean",
+            "description": "Direct Lagos Lagoon access for multimodal barge connectivity, reducing transport costs."
+        },
+        {
+            "title": "Traffic Infrastructure",
+            "description": "High-capacity truck holding bay synchronized with automated e-call-up system."
+        },
+        {
+            "title": "First-Mover",
+            "description": "First private operator explicitly positioned within 2km of Major Industrial Giants in Ikorodu."
+        }
+    ],
+    "historical_data_internal": {
+        "total_capex_deployed_usd": 60790000,
+        "phase_two_land_bank_ha": 667,
+        "note": "These financial figures were removed from the public Corporate Profile to maintain narrative focus on operations, but remain structurally accurate regarding the ultimate deployment vision."
+    }
+}

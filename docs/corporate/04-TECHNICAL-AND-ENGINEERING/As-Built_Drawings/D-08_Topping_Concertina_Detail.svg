@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2600"
+   height="1800"
+   viewBox="0 0 2600 1800"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="D-08_Topping_Concertina_Detail.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.34221392"
+     inkscape:cx="1224.3804"
+     inkscape:cy="965.77019"
+     inkscape:window-width="1728"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
+  <defs
+     id="defs1">
+    <marker
+       id="arrow"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#222"
+         id="path1" />
+    </marker>
+    <style
+       id="style1">
+      .line{stroke:#222;stroke-width:6;fill:none}
+      .dim{stroke:#222;stroke-width:4;fill:none;marker-start:url(#arrow);marker-end:url(#arrow)}
+      .txt{font: 48px sans-serif; fill:#111}
+      .title{font: 56px sans-serif; font-weight:700}
+    </style>
+  </defs>
+  <!-- Title -->
+  <text
+     x="60"
+     y="120"
+     class="title"
+     id="text1">D-08 Topping Bracket and Concertina – Elevation &amp; Side</text>
+  <text
+     x="57.07785"
+     y="203.3772"
+     class="txt"
+     id="text2"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:normal;font-family:sans-serif">45° bracket, 300 mm projection; Concertina 600 mm Ø; SS ties @ 300 mm</text>
+  <!-- Elevation view -->
+  <text
+     x="60"
+     y="280"
+     class="txt"
+     id="text3">Elevation</text>
+  <!-- Post -->
+  <rect
+     x="217.5329"
+     y="490.58661"
+     width="120"
+     height="900"
+     fill="#dddddd"
+     stroke="#222222"
+     stroke-width="6"
+     id="rect3" />
+  <!-- Bracket at 45° -->
+  <line
+     x1="277.5329"
+     y1="490.58661"
+     x2="277.5329"
+     y2="490.58661"
+     class="line"
+     id="line3" />
+  <!-- Concertina circles -->
+  <circle
+     cx="817.5329"
+     cy="250.58661"
+     r="300"
+     fill="none"
+     stroke="#222222"
+     stroke-width="6"
+     id="circle3" />
+  <circle
+     cx="1267.5328"
+     cy="250.58661"
+     r="300"
+     fill="none"
+     stroke="#222222"
+     stroke-width="6"
+     id="circle4" />
+  <text
+     x="837.5329"
+     y="610.58661"
+     class="txt"
+     id="text4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:normal;font-family:sans-serif">600 mm Ø concertina</text>
+  <!-- Side view -->
+  <text
+     x="54.155701"
+     y="1028.5746"
+     class="txt"
+     id="text5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:normal;font-family:sans-serif">Side</text>
+  <!-- Post side -->
+  <rect
+     x="217.5329"
+     y="1070.5867"
+     width="120"
+     height="700"
+     fill="#dddddd"
+     stroke="#222222"
+     stroke-width="6"
+     id="rect5" />
+  <!-- Bracket 45° side -->
+  <line
+     x1="277.5329"
+     y1="1070.5867"
+     x2="277.5329"
+     y2="1070.5867"
+     class="line"
+     id="line5" />
+  <!-- Saddle/strap -->
+  <rect
+     x="697.5329"
+     y="810.58661"
+     width="80"
+     height="60"
+     fill="#cfd8dc"
+     stroke="#222222"
+     stroke-width="4"
+     id="rect6" />
+  <text
+     x="797.5329"
+     y="850.58661"
+     class="txt"
+     id="text6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:normal;font-family:sans-serif">SS saddle/strap</text>
+  <!-- Concertina side (circle) -->
+  <circle
+     cx="737.5329"
+     cy="810.58661"
+     r="300"
+     fill="none"
+     stroke="#222222"
+     stroke-width="6"
+     id="circle6" />
+  <!-- Dimensions -->
+  <line
+     x1="277.5329"
+     y1="1150.5867"
+     x2="489.5329"
+     y2="938.58661"
+     class="dim"
+     id="line6" />
+  <text
+     x="537.5329"
+     y="1070.5867"
+     class="txt"
+     id="text7"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:normal;font-family:sans-serif">300 mm proj. @ 45°</text>
+  <line
+     x1="697.5329"
+     y1="1170.5867"
+     x2="697.5329"
+     y2="450.58661"
+     class="dim"
+     id="line7" />
+  <text
+     x="830.58661"
+     y="-727.5329"
+     class="txt"
+     transform="rotate(90)"
+     id="text8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:normal;font-family:sans-serif">600 mm Ø</text>
+</svg>

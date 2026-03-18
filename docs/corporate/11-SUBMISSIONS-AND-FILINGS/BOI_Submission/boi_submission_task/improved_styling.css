@@ -1,0 +1,175 @@
+/* Improved styling for Emergency Response Plan PDF with narrower margins */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@600;700;800&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    line-height: 1.3;
+    color: #333;
+    margin: 1cm;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+}
+
+h1 {
+    font-size: 20pt;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16pt;
+    color: #e74c3c;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 4px;
+}
+
+h3 {
+    font-size: 13pt;
+    color: #3498db;
+}
+
+h4 {
+    font-size: 11pt;
+    color: #2c3e50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 9pt;
+}
+
+th, td {
+    border: 1px solid #bdc3c7;
+    padding: 6px 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ecf0f1;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tr:hover {
+    background-color: #eef2f7;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    background-color: #f8f9fa;
+    padding: 1px 3px;
+    border-radius: 2px;
+    font-size: 9pt;
+}
+
+blockquote {
+    border-left: 3px solid #3498db;
+    margin: 10px 0;
+    padding: 8px 15px;
+    background-color: #f8f9fa;
+    font-style: italic;
+    font-size: 9pt;
+}
+
+.page-break {
+    page-break-after: always;
+}
+
+div[style*="page-break-after"] {
+    page-break-after: always;
+}
+
+/* Table of contents styling */
+#TOC {
+    page-break-after: always;
+}
+
+#TOC ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#TOC li {
+    margin: 4px 0;
+}
+
+#TOC a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+#TOC a:hover {
+    text-decoration: underline;
+}
+
+/* Executive statement styling */
+#executive-statement {
+    font-size: 11pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+    padding: 12px;
+    background-color: #fff3f3;
+    border: 1px solid #e74c3c;
+    border-radius: 4px;
+}
+
+/* Introduction styling */
+#introduction {
+    margin-bottom: 15px;
+}
+
+/* Definition lists */
+dl {
+    margin: 12px 0;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+dd {
+    margin-left: 15px;
+}
+
+/* Print-specific styles */
+@media print {
+    @page {
+        margin: 1cm;
+    }
+    
+    body {
+        margin: 1cm;
+    }
+    
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+    
+    table, figure {
+        page-break-inside: avoid;
+    }
+}
+
+/* Remove excessive formatting characters */
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}

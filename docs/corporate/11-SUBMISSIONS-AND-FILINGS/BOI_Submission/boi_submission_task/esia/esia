@@ -1,0 +1,936 @@
+## Table of Contents
+- Cover and Project Identification
+- Abbreviations and Acronyms
+- Executive Summary
+1. Introduction and Background
+2. Legal, Policy and Institutional Framework
+3. Project Description
+4. ESIA Scope, Methodology and Significance Criteria
+5. Baseline Environment
+    5.1 Physical Environment
+    5.2 Biological Environment
+    5.3 Socio-Economic and Cultural Environment
+6. Impact Identification and Assessment
+7. Mitigation and Enhancement Measures
+8. Environmental and Social Management Plan (ESMP)
+9. Occupational Health and Safety (OHS) Integration
+10. Stakeholder Engagement and Disclosure
+11. Grievance Redress Mechanism (GRM)
+12. Emergency Preparedness and Response (ERP)
+13. Climate Change, GHG and Resilience
+14. Cumulative and Transboundary Impacts
+15. Environmental and Social Monitoring and Reporting
+16. Implementation Schedule and Budget
+17. Residual Impacts After Mitigation
+18. Conclusions and Recommendations
+19. References
+
+**Annexes**
+- Annex A: Terms of Reference (ToR) and Scoping Checklist
+- Annex B: Baseline Field Data Sheets
+- Annex C: Stakeholder Engagement Templates
+- Annex D: ESMP Inspection and Audit Checklists
+- Annex E: Spill Prevention, Control and Countermeasure (SPCC) Templates
+- Annex F: Waste Management Templates
+- Annex G: Traffic and Navigation Safety Templates
+- Annex H: Emergency Preparedness & Response Templates
+- Annex I: Chance Find Procedure Form
+- Annex J: Gender Action Plan (GAP) and GBV/SEA Protocol
+- Annex K: Monitoring Schedule and Calendar
+- Annex L: KPI Data Dictionary and Monthly Report
+- Annex M: Regulatory Compliance Register
+- Annex N: Risk Register Template (Environmental & Social)
+- Annex O: Training Records and Competency
+- Annex P: Permit-to-Work Forms (Lite Text Versions)
+- Annex Q: Corrective Action Register
+- Annex R: Document Control and Distribution
+- Annex S: Photolog and Mapping Placeholders
+
+---
+
+## Cover and Project Identification
+
+- **Project:** Environmental and Social Impact Assessment (ESIA) for GK & A Logistics Services Limited Operations at NPA Lighter Terminal, Ikorodu, Lagos State, Nigeria
+- **Proponent:** GK & A Logistics Services Limited
+- **Policy Integration:** Women-Led “Safety-First” OHS Initiative (Policy No. OHS-POL001)
+- **Date:** November 1, 2025
+- **Version:** Draft v1.0 (For disclosure and regulatory review)
+- **Primary Contact:** HSE Manager, GK & A Logistics Services Limited
+- **Email:** gkandalogistics@gmail.com
+- **Phone:** +234 810 862 7165
+
+---
+
+## Abbreviations and Acronyms
+
+- **EIA/ESIA:** Environmental (and Social) Impact Assessment
+- **ESMP:** Environmental and Social Management Plan
+- **ERP:** Emergency Response Plan
+- **FMEnv:** Federal Ministry of Environment
+- **NPA:** Nigerian Ports Authority
+- **LASEPA:** Lagos State Environmental Protection Agency
+- **NIMASA:** Nigerian Maritime Administration and Safety Agency
+- **NESREA:** National Environmental Standards and Regulations Enforcement Agency
+- **NOSDRA:** National Oil Spill Detection and Response Agency
+- **HSE:** Health, Safety and Environment
+- **OHS:** Occupational Health and Safety
+- **IFC PS:** International Finance Corporation Performance Standards
+- **LTIR:** Lost Time Injury Rate
+- **PPE:** Personal Protective Equipment
+- **JSA:** Job Safety Analysis
+- **P2W:** Permit-to-Work
+- **WB EHS:** World Bank Group Environmental, Health and Safety Guidelines
+
+---
+
+## Executive Summary
+
+- **Introduction:** GK & A Logistics Services Limited seeks to enhance operations at the NPA Ikorodu Lighter Terminal, including cargo handling, storage, barge/lighter movements, and supporting utilities. This ESIA identifies environmental and social risks and proposes management measures that integrate the company’s Women-Led “Safety-First” OHS Policy.
+- **Regulatory Context:** The ESIA follows Nigeria’s EIA Act (Decree No. 86 of 1992; Cap E12 LFN 2004) and FMEnv EIA Procedural Guidelines, with oversight from FMEnv and relevant state/federal agencies including LASEPA, NPA, NIMASA and NOSDRA. International benchmarks include IFC Performance Standards and WB EHS Guidelines for Ports, Harbors and Terminals.
+- **Key Risks and Impacts:** Air emissions (diesel equipment), noise, stormwater and wastewater quality, hazardous materials and spill risks, solid/hazardous waste, traffic and marine navigation safety, aquatic ecology sensitivities in Lagos Lagoon, worker/community health and safety, labor conditions, gender equality and GBV/SEA risk management, and cumulative effects.
+- **Mitigation and ESMP:** Measures include engineering controls (bunding, oil-water separators, mufflers), administrative controls (P2W, JSA, training), SPCC, stormwater treatment, waste segregation and licensed disposal, vessel traffic management, women-led OHS governance, community engagement and grievance redress, and resilience measures for climate/weather. The ESMP assigns roles, indicators, monitoring frequency, and budget.
+- **Benefits:** Improved safety, regulatory compliance, emergency preparedness, women’s leadership and inclusion, and local employment.
+- **Conclusion:** With full ESMP implementation, residual impacts are expected to be minor to moderate and acceptable.
+
+---
+
+## 1. Introduction and Background
+
+- **Proponent:** GK & A Logistics Services Limited, a logistics and marine services company operating at the NPA Lighter Terminal, Ikorodu, Lagos State, Nigeria.
+- **Rationale:** Improve terminal efficiency and safety; reduce incident rates; elevate women into safety leadership roles; demonstrate regulatory compliance and good international industry practice.
+- **ESIA Objectives:**
+    - Identify environmental and social risks and impacts.
+    - Propose feasible mitigation/enhancement measures.
+    - Develop an ESMP aligned with Nigerian law and international guidance.
+    - Document meaningful stakeholder engagement and public disclosure.
+- **ESIA Team:** Led by GK & A HSE function, with external inputs as needed. This draft is suitable for disclosure and regulatory review.
+
+---
+
+## 2. Legal, Policy and Institutional Framework
+
+- **National Legislation and Institutions:**
+    - EIA Act (Decree No. 86 of 1992; Cap E12 LFN 2004) and FMEnv EIA Procedural Guidelines (1995).
+    - NESREA Act and environmental regulations and standards.
+    - NPA regulations governing port and terminal operations.
+    - NIMASA requirements for marine safety and marine environmental protection.
+    - NOSDRA Act: reporting and response for hydrocarbon spills.
+    - LASEPA: noise, air, effluent control at state level.
+    - Lagos State Ministry of Environment and Water Resources: permits as applicable.
+- **International Standards (Guidance):**
+    - IFC Performance Standards (PS1–PS8).
+    - WB Group EHS Guidelines: General EHS; Ports, Harbors and Terminals.
+    - ILO conventions and IMO/MARPOL as applicable.
+    - ISO 45001 principles (OHS) and ISO 14001 principles (environmental management).
+- **Company Policies:**
+    - Integrated OHS & Women-Led “Safety-First” Policy (OHS-POL-001; effective Nov 1, 2025).
+    - Code of Conduct, Anti-Harassment, and GRM in force across operations.
+- **Permits/Approvals Required:**
+    - FMEnv ESIA approval; LASEPA permits for noise/effluents (if applicable).
+    - NPA operational consents; NIMASA vessel/operations compliance.
+    - NOSDRA SPCC plan registration; licensed waste vendor agreements.
+
+---
+
+## 3. Project Description
+
+- **Location:** NPA Lighter Terminal, Ikorodu, Lagos State, on the Lagos Lagoon shore within the Ikorodu axis. Approximate coordinates for reference: 6.610°N, 3.500°E (to be verified during survey).
+- **Components:**
+    - Quay/berth areas for barges/lighters; laydown yards; warehouses.
+    - Mobile equipment: cranes, forklifts, reach stackers, trucks.
+    - Utilities: diesel generators, lighting, water supply, sanitary facilities.
+    - Fuel/lubricants storage with secondary containment (bunds); spill control kits and booms.
+    - Internal roads and traffic circulation; security and access control.
+    - Offices, training rooms and welfare facilities (including women-friendly facilities).
+- **Operational Activities:**
+    - Vessel berthing/unberthing; cargo handling and storage; internal truck movements.
+    - Equipment operations and maintenance; refueling and lubrication.
+    - Waste management; spill prevention and emergency response drills.
+- **Workforce and Schedule:**
+    - Estimated 90–140 personnel inclusive of contractors during steady-state operations, on rotating 24/7 shifts.
+    - A trained female HSE Champion on every shift; 24/7 ERT coverage.
+- **Phases:**
+    - Mobilization/refurbishment (limited); steady-state operations; eventual decommissioning (future principles included).
+- **Alternatives:**
+    - No-project.
+    - Operational: improved traffic layout; low-sulfur diesel; equipment with better emission control; exploration of electrification/retrofits.
+    - Design: expanded stormwater control; acoustic mitigation near sensitive boundaries.
+
+---
+
+## 4. ESIA Scope, Methodology and Significance Criteria
+
+- **Scope:**
+    - **Physical:** air, noise, water quality, soils and hydrology.
+    - **Biological:** aquatic ecology of Lagos Lagoon; modified terrestrial habitats.
+    - **Social:** demographics, livelihoods, labor/OHS, community health and safety, gender and GBV/SEA.
+    - Cultural heritage and cumulative impacts.
+- **Methodology:**
+    - Desktop review of public sources and operational documents.
+    - Site reconnaissance and engagement with on-site teams and nearby stakeholders.
+    - Baseline survey plan defined; initial monitoring scheduled at project start.
+- **Significance Criteria:**
+    - Likelihood-consequence risk matrix with categories: negligible, minor, moderate, major.
+    - Receptor sensitivity and magnitude of impact considered, with legal thresholds.
+
+---
+
+## 5. Baseline Environment
+
+### 5.1 Physical Environment
+
+- **Climate/Meteorology:** Tropical monsoon; wet season April–October; typical annual rainfall 1,500–1,800 mm; temperatures 24–32°C; prevailing SW winds in wet season and NE in dry season.
+- **Air Quality:** Urban-industrial background typical of Lagos; primary pollutants linked to diesel combustion (PM2.5/PM10/NOx/SO2/CO/VOCs). Initial compliance monitoring to be conducted quarterly; target compliance with national and WB EHS guideline values.
+- **Acoustic Environment:** Background noise from port operations and access roads. Sensitive receptors include nearby residential and commercial areas; monitoring planned quarterly for day/night LAeq at site boundary; target compliance with LASEPA/WHO guidelines.
+- **Geology/Soils:** Coastal alluvium with long-term port modification; potential legacy hydrocarbon contamination managed via good housekeeping and spill control; soil sampling to be done in representative areas if intrusive works occur.
+- **Hydrology/Water Quality:** Lagos Lagoon with tidal influence; stormwater discharge points from paved areas; quarterly sampling of pH, DO, BOD, COD, TSS, Oil & Grease; separators maintained to control hydrocarbons.
+- **Traffic/Navigation:** Road access via Ikorodu axis; internal circulation marked with speed control; marine navigation under NPA/NIMASA protocols.
+
+### 5.2 Biological Environment
+
+- **Terrestrial Ecology:** Highly altered port setting; minimal natural vegetation; occasional urban-adapted fauna.
+- **Aquatic Ecology:** Brackish lagoon fauna (fish/invertebrates); potential presence of mangroves in broader area; sensitivity to hydrocarbons and suspended solids; no in-water works planned.
+- **Protected Areas/Species:** No protected areas within terminal; commit to avoid disturbance to regional sensitive habitats.
+
+### 5.3 Socio-Economic and Cultural Environment
+
+- **Demographics/Land Use:** Mixed residential/commercial communities in Ikorodu axis; livelihoods include trade, transport, small-scale fishing and services.
+- **Employment/Economy:** Port operations support local jobs; project enhances local employment, including women-led roles in safety.
+- **Community Health and Safety:** Existing exposure to traffic, air/noise; project reduces risks via improved controls and emergency preparedness.
+- **Vulnerable Groups/Gender:** Women and youth prioritized for safe engagement and opportunities; zero tolerance for GBV/SEA; confidential reporting and referral.
+- **Cultural Heritage:** No known sites in terminal; chance find procedure active.
+
+---
+
+## 6. Impact Identification and Assessment
+
+- **Construction/Refurbishment (limited):**
+    - Potential minor to moderate short-term impacts from equipment emissions, noise, waste, and traffic; mitigable via work planning and controls.
+- **Operations (main phase):**
+    - Air emissions from diesel equipment/generators.
+    - Noise from handling equipment and cargo operations.
+    - Stormwater quality: sediment and oil & grease risks.
+    - Hazardous materials and spill risk (diesel/lube oils).
+    - Solid/hazardous waste generation and contractor management.
+    - Traffic and marine navigation safety.
+    - Aquatic ecology (indirect impacts via water quality).
+    - Worker and community health/safety; labor conditions and gender inclusion, GBV/SEA risks.
+    - Cumulative effects with other lagoon users and terminals.
+- **Decommissioning (future):** Equipment demobilization waste and contamination management with standard controls.
+
+---
+
+## 7. Mitigation and Enhancement Measures
+
+- **Air Emissions:**
+    - Preventive maintenance; anti-idling policy; low-sulfur diesel where available; explore electrification/retrofits; dust control on unpaved areas; driver/operator training.
+- **Noise:**
+    - Mufflers/maintenance; schedule noisy activities daytime; acoustic enclosures for generators; PPE for workers; quarterly monitoring at boundary.
+- **Water/Soils:**
+    - Bunded storage; drip trays; oil-water separators; housekeeping; spill booms on drains during refueling/maintenance; no direct discharge of untreated effluents.
+- **Spill Prevention/Response:**
+    - SPCC plan; spill kits and booms at high-risk points; trained ERT with drills; NOSDRA notification protocol; maintain inventory and inspection logs.
+- **Waste Management:**
+    - Segregation at source; labeled containers; licensed waste haulers; manifests; no open burning; promote recycling where feasible.
+- **Biodiversity:**
+    - No in-water works; strict spill prevention; waste control; awareness training; prohibit wildlife disturbance.
+- **Traffic/Navigation:**
+    - Traffic management plan; signage and speed limits; segregation of pedestrian and vehicle paths; competent drivers/operators; marine movements coordinated with NPA/NIMASA.
+- **OHS and Women-Led Safety:**
+    - Implement ISO 45001-aligned OHS system; P2W for high-risk tasks; JSA; LOTO; WAH rescue plans; shift-level female HSE Champions; stop-work authority.
+- **Social/Community:**
+    - Stakeholder engagement, community safety information, grievance mechanism, local hiring and training; enforce anti-harassment and GBV/SEA protocols with confidential reporting.
+- **Climate/Resilience:**
+    - Energy efficiency; LED lighting; GHG accounting; drainage improvements; severe weather preparedness and drills.
+
+---
+
+## 8. Environmental and Social Management Plan (ESMP) – Extract
+
+- **ESMP Owner:** HSE Manager, GK & A Logistics Services Limited
+- **Implementers:** Site Manager; Supervisors; Female HSE Champions; ERT; Contractors; Licensed Waste Vendor
+- **Oversight:** Women’s Safety Steering Committee; FMEnv/NPA/NIMASA/LASEPA/NOSDRA as applicable
+
+**ESMP Sample Matrix (summarized)**
+1. **Air emissions:** Maintenance, anti-idling, fuel quality; KPI: fuel per ton; quarterly PM/NOx sampling.
+2. **Noise:** Mufflers/enclosures; KPI: LAeq day/night; quarterly boundary checks.
+3. **Stormwater/oily water:** Separators/booms/housekeeping; KPI: Oil & Grease mg/L; monthly inspections.
+4. **Fuel/chemicals:** 110% bunding, SDS, trained handlers; KPI: bund integrity; monthly checks.
+5. **Spills:** SPCC, drills, NOSDRA reporting; KPI: time-to-contain; bi-annual full-scale drills.
+6. **Waste:** Segregation, manifests, licensed haulers; KPI: % recycled; monthly logs.
+7. **Hazardous work:** P2W, LOTO, gas testing, rescue plans; KPI: PTW audit score; weekly audits.
+8. **Traffic/navigation:** Plan, signage, competency; KPI: incidents per 100k hours; monthly review.
+9. **Community H&S:** Security, road safety near gates; KPI: complaints resolved; monthly.
+10. **Labor/working conditions:** Contracts, fair wages, hours, non-discrimination; KPI: grievances closed; quarterly.
+11. **Gender/GBV-SEA:** Code of Conduct, training, confidential intake; KPI: training completion; quarterly.
+12. **Biodiversity:** No discharges; spill prevention; KPI: water quality trend; quarterly.
+13. **Cultural heritage:** Chance find procedure; KPI: compliance; as needed.
+14. **Climate/energy:** Energy audit; GHG tracking; KPI: tCO2e/ton; annual.
+15. **Stakeholder engagement/GRM:** SEP delivery; KPI: grievances closed within 30 days; monthly.
+
+---
+
+## 9. Occupational Health and Safety (OHS) Integration
+
+- **Governance:** Women’s Safety Steering Committee co-chaired by MD/CEO and Senior HSE Manager (female). Female HSE Champions per shift; stop-work authority.
+- **Risk Management:** JSA, P2W, LOTO, WAH, confined space, lifting, traffic, ergonomics, fatigue and heat stress.
+- **Training:** Induction; quarterly refreshers; monthly Safe Hands Workshops led by female facilitators; certification support (NEBOSH/OSHA).
+- **KPIs:** LTIR ≤ 0.5 per 200,000 hours; near-miss reports doubled; female HSE leaders ≥ 40% within 18 months.
+- **Incident Management:** 24-hour reporting; 72-hour RCA; lessons learned; corrective action tracking.
+- **Emergency Response:** 24/7 ERT; ERP drills; spill response with NOSDRA protocols.
+
+---
+
+## 10. Stakeholder Engagement and Disclosure
+
+- **Stakeholders:** FMEnv, LASEPA, NPA, NIMASA, NOSDRA; local communities near Ikorodu terminal; workers/contractors; emergency services; civil society and trade associations.
+- **Methods:** Scoping and focus group meetings (including women-only sessions); public notices; terminal noticeboards; non-technical summary in English and Yoruba; grievance channels (hotline/email/suggestion boxes).
+- **Inclusive Engagement:** Time/place accessible to women and vulnerable groups; privacy options; use of local languages as needed.
+- **Disclosure:** ESIA and non-technical summary available digitally and on-site.
+
+---
+
+## 11. Grievance Redress Mechanism (GRM)
+
+- **Principles:** Accessible, transparent, confidential, non-retaliatory, gender-sensitive.
+- **Channels:** Hotline (handled by GK & A), email (gkandalogistics@gmail.com), suggestion boxes at the gatehouse and admin office, in-person to supervisors or HSE.
+- **Process:** Acknowledge within 3 business days; assess and investigate within 15 business days; resolve and communicate within 30 business days; appeal to Steering Committee/MD if needed.
+- **Worker GRM:** Separate HR-led channel with anonymity options.
+- **GBV/SEA Pathway:** Confidential intake by trained female officer; survivor-centered approach; referral to appropriate service providers as requested by survivor.
+
+---
+
+## 12. Emergency Preparedness and Response (ERP)
+
+- **Risks:** Fire, spill, medical emergencies, severe weather, security threats.
+- **Structure:** Incident Commander; HSE Manager; ERT Lead (female); functional teams; liaison with NPA/NIMASA/NOSDRA/Lagos State Fire Service/Hospitals.
+- **Equipment:** Fire extinguishers, spill kits/booms, first-aid stations, alarms, PPE, communication devices.
+- **Procedures:** Muster points and evacuation routes clearly marked; quarterly drills; bi-annual multi-agency exercises; after-action reviews.
+- **Contacts:** National Emergency Number 112; Lagos Emergency 767; internal duty contacts maintained 24/7 by GK & A HSE.
+
+---
+
+## 13. Climate Change, GHG and Resilience
+
+- **GHG Sources:** Diesel equipment, generators, marine fuels, grid electricity.
+- **Approach:** Annual scope 1 and 2 accounting using activity data and recognized emission factors; qualitative review of scope 3 where feasible.
+- **Reduction Measures:** Maintenance; anti-idling; equipment upgrades; LED lighting; explore electrification/shore power options if feasible.
+- **Resilience:** Flood/storm surge preparedness; improved drainage and elevated control panels; severe weather protocols.
+
+---
+
+## 14. Cumulative and Transboundary Impacts
+
+- **Cumulative:** Combined port activities may affect air, noise, traffic and lagoon water quality; manage by coordination with NPA/NIMASA, implementing controls, and sharing monitoring results.
+- **Transboundary:** Not anticipated given lagoon location and operation scope; reassess if operation footprint changes.
+
+---
+
+## 15. Environmental and Social Monitoring and Reporting
+
+- **Monitoring Plan:**
+    - **Air:** PM2.5/PM10/NOx quarterly at boundary and near equipment concentration zones.
+    - **Noise:** Quarterly day/night LAeq at boundary points.
+    - **Water:** Quarterly sampling at stormwater outfalls and lagoon edge near discharge points (pH, DO, BOD, COD, TSS, Oil & Grease).
+    - **Waste:** Monthly tracking; quarterly audits.
+    - **OHS:** Monthly KPIs; audit closeouts.
+    - **Social:** Engagement events; grievances; local employment and gender metrics.
+- **Reporting:**
+    - Monthly internal dashboard to Site Manager and HSE Manager.
+    - Quarterly ESMP performance report to Steering Committee and management.
+    - Statutory reporting to regulators as required.
+- **Adaptive Management:** Review results and update controls.
+
+---
+
+## 16. Implementation Schedule and Budget
+
+- **Schedule:**
+    - **Month 1:** ESMP onboarding; baseline monitoring kickoff; stakeholder disclosure; internal training launch.
+    - **Months 2–4:** Full P2W/JSA rollout; spill and ERP drills; finalize waste vendor contracts; implement traffic plan.
+    - **Months 5–12:** KPI dashboards; quarterly monitoring; external audit; community safety outreach.
+    - **Annual:** Management review; update ESIA/ESMP.
+- **Budget (18-month indicative; Nigerian Naira):**
+    - Environmental monitoring (air/noise/water and lab): NGN 4,800,000
+    - Spill control and ERP equipment and drills: NGN 3,600,000
+    - Training and stakeholder engagement: NGN 2,200,000
+    - Waste management (licensed disposal/recycling fees): NGN 2,400,000
+    - Audits and external advisory: NGN 1,500,000
+    - Contingency (10%): NGN 1,250,000
+    - **Total estimated:** NGN 15,750,000
+
+---
+
+## 17. Residual Impacts After Mitigation
+
+- **Air/Noise:** Residual minor with maintenance, scheduling and controls.
+- **Water Quality:** Residual minor with separators, housekeeping and monitoring.
+- **Biodiversity:** Negligible to minor residual impacts due to strong spill prevention.
+- **OHS/Community Safety:** Residual minor with women-led governance and robust procedures.
+- **Social/Gender:** Positive residual impacts from inclusion and leadership; maintain GBV/SEA safeguards.
+- **Cumulative:** Managed via coordination and ongoing monitoring.
+
+---
+
+## 18. Conclusions and Recommendations
+
+- Proceed with operations under this ESMP; maintain quarterly monitoring and engagement; fund ESMP actions; institutionalize women-led safety; conduct annual management review and ESIA update; continue coordination with regulators and lagoon stakeholders.
+
+---
+
+## 19. References
+
+- Nigeria EIA Act (Decree No. 86 of 1992; Cap E12 LFN 2004); FMEnv EIA Procedural Guidelines (1995).
+- NESREA standards; LASEPA guidance; NPA/NIMASA operational guidelines; NOSDRA reporting.
+- IFC Performance Standards; WB EHS Guidelines (Ports/General).
+- GK & A Integrated OHS & Women-Led Safety-First Policy (OHS-POL-001).
+
+---
+
+## Annex A: Terms of Reference (ToR) and Scoping Checklist
+
+**Title:** ESIA ToR and Scoping Checklist
+**Project:** GK & A Operations at NPA Lighter Terminal, Ikorodu
+**Site:** NPA Lighter Terminal, Ikorodu, Lagos State, Nigeria
+**Date:** November 1, 2025
+**Prepared by:** HSE Manager, GK & A Logistics Services Limited
+**Reviewed by:** Managing Director/CEO, GK & A Logistics Services Limited
+**Version:** 1.0
+
+### 1) Project Overview
+- **Description:** Cargo handling, storage, barge/lighter movements, equipment operations, waste management, spill prevention, emergency response, women-led OHS governance. Phases: Mobilization/refurbishment (limited), Operations (24/7), Future decommissioning principles.
+- **Location:** Approx. coordinates 6.610°N, 3.500°E (verification on site during survey).
+- **Alternatives:** No-project; upgraded traffic layout; better emission control; electrification/retrofits; enhanced drainage and acoustic barriers.
+
+### 2) Regulatory Triggers and Permits
+- **Applicable laws/regulations:** EIA Act; NESREA standards; LASEPA; NPA/NIMASA; NOSDRA.
+- **Permits/approvals:** FMEnv ESIA approval; LASEPA permits; NPA/NIMASA consents; NOSDRA SPCC registration.
+- **Lead regulator:** FMEnv; State coordination with LASEPA.
+
+### 3) Valued Environmental & Social Components (VECs)
+- **Physical:** air, noise, water, soils/hydrology.
+- **Biological:** aquatic ecology (lagoon).
+- **Social:** worker/community health and safety, livelihoods, gender and GBV/SEA safeguards.
+- **Cultural heritage:** chance find.
+
+### 4) Key Risks/Impacts
+- **Construction/refurbishment:** minor emissions/noise/waste/traffic.
+- **Operations:** emissions, noise, stormwater, spills, waste, traffic/navigation, OHS, social and gender risks.
+- **Cumulative impacts:** lagoon-wide effects with other terminals.
+
+### 5) Baseline Data Needs
+- Quarterly air/noise/water monitoring; desk-based ecology review; socio-economic engagement summary.
+
+### 6) Stakeholders and Engagement
+- Regulators (FMEnv, LASEPA, NPA, NIMASA, NOSDRA), nearby communities, workers/contractors, emergency services.
+
+### 7) ESIA Contents Confirmed
+- Chapters 1–19; Annexes A–S; schedule aligned to project mobilization.
+
+**Approvals**
+- **HSE Manager:** Signed/November 1, 2025
+- **MD/CEO:** Signed/November 1, 2025
+
+---
+
+## Annex B: Baseline Field Data Sheets
+
+### B1) Ambient Air Quality Field Sheet
+**Project/Site:** GK & A – NPA Lighter Terminal, Ikorodu
+**Location ID:** Boundary-1 (North Gate)
+**GPS:** 6.611°N, 3.498°E
+**Date/Time start–end:** November 10, 2025, 10:00–12:00
+**Sampler/Team:** GK & A HSE Team
+**Parameters:** PM2.5, PM10, NOx, SO2, CO
+**Method/Instrument:** Portable calibrated analyzers
+**Height above ground:** 1.5 m
+**Weather:** Clear; light breeze (SW)
+**Nearby sources within 100 m:** Access road, terminal equipment
+**Observations/Notes:** Normal operations; no visible dust plumes
+**QC/QA:** Pre/post calibration checks; one duplicate
+**Chain of Custody ID:** AIR-IKD-001
+
+### B2) Noise Survey Sheet
+**Location ID:** Boundary-2 (East Fence)
+**GPS:** 6.609°N, 3.501°E
+**Height:** 1.5 m; **Ground:** Paved
+**Date:** November 10, 2025; **Time:** 14:00–15:00
+**Team:** GK & A HSE Team; **Instrument/Cal date:** Calibrated Sep 2025
+**Period:** Day; **Duration:** 60 min
+**Parameters:** LAeq
+**Dominant sources:** Handling equipment, road traffic
+**Sensitive receptors:** Residences ~200 m east
+
+### B3) Surface Water/Stormwater Sampling
+**Sample ID:** WQ-OUTFALL-01
+**Location:** Main stormwater outfall to lagoon
+**GPS:** 6.610°N, 3.499°E
+**Date/Time:** November 11, 2025, 09:00
+**Water body:** Lagoon; **Tide:** Falling
+**Field parameters:** Temp 29°C, pH 7.2, DO 6.1 mg/L, Turbidity moderate
+**Lab parameters:** BOD, COD, TSS, Oil & Grease, Nutrients
+**Bottle/preservative:** Appropriate; **Chain of Custody ID:** WQ-IKD-001
+
+### B4) Soil/Sediment Sampling
+**Sample ID:** SO-IKD-01
+**Depth:** 0–10 cm
+**Location:** Fuel storage bund floor
+**GPS:** 6.608°N, 3.502°E
+**Analytes:** TPH, Metals
+**Decontamination:** Tools cleaned with solvent and deionized water
+**Chain of Custody ID:** SO-IKD-001
+
+### B5) Ecology Rapid Assessment
+**Transect/Point ID:** ECO-IKD-01
+**Habitat:** Modified port setting; sparse vegetation
+**Dominant flora/fauna:** Ruderal plants; common lagoon fish observed by fishermen
+**Species of concern:** None observed
+**Signs of disturbance:** Routine port activity
+
+### B6) Socio-economic Interview Guide
+**Respondent type:** Resident; **Gender:** F; **Age range:** 36–60
+**Key notes:** Appreciates employment opportunities; concerned about traffic near gate; supports women-led safety presence.
+
+---
+
+## Annex C: Stakeholder Engagement Templates
+
+### C1) Stakeholder Register (examples)
+- **ID 001:** FMEnv – Federal Ministry of Environment – Regulator – High influence – Preferred channel: official correspondence
+- **ID 002:** LASEPA – State regulator – High influence – Meetings/letters
+- **ID 003:** NPA (Ikorodu Terminal Management) – Operator/Authority – High influence – Meetings
+- **ID 004:** NIMASA – Marine safety – High influence – Letters/meetings
+- **ID 005:** NOSDRA – Spill response – High influence – Hotline/letters
+- **ID 006:** Ikorodu Community Association – Community – Medium – Town hall/focus groups
+- **ID 007:** GK & A Employees – Workers – High – Toolbox talks/noticeboards
+- **ID 008:** Licensed Waste Vendor – Contractor – Medium – Contract meetings
+
+### C2) Engagement Meeting Record (example)
+**Meeting ID:** ENG-IKD-001
+**Date/Time:** November 12, 2025, 11:00–12:30
+**Venue:** Terminal Training Room
+**Facilitator:** HSE Manager
+**Participants:** Community reps, NPA liaison, GK & A supervisors, female HSE Champions
+**Issues raised:** Traffic near gate; spill response readiness; job opportunities for women
+**Responses:** Speed control and signage upgrades; bi-annual drills; internship program for women
+**Actions:** Implement traffic calming by Dec 15, 2025; schedule drill Jan 2026
+
+### C3) Attendance Sheet summary
+Women 12; Men 18; Youth (<30) 8; Persons with disabilities 1
+
+---
+
+## Annex D: ESMP Inspection and Audit Checklists
+
+**Instructions:** Tick [✓], mark [X] for non-conformance, [N/A] if not applicable. Add comments and actions.
+
+### D1) General Environmental & Housekeeping
+**Date:** November 12, 2025; **Site/Area:** Terminal-wide; **Inspector:** GK & A HSE Team; **Weather:** Clear
+- Walkways clear and marked [✓] Comments: None
+- Spill kits visible/stocked [✓] Comments: None
+- Waste segregated and labeled [✓] Comments: None
+- Drains free of debris [✓] Comments: None
+- Fire extinguishers accessible/in-date [✓] Comments: None
+- Lighting adequate [✓] Comments: None
+**Actions/Owner/Due date:** None
+
+### D2) Fuel/Chemical Storage & Handling
+- Tanks/bowsers within 110% bund [✓] Bund integrity good [✓] Water/oil removed [✓]
+- SDS available and current [✓]
+- Transfer via hoses in good condition [✓] Drip trays used [✓]
+- No smoking signage and controls [✓]
+- Trained handlers present [✓]
+**Actions:** None
+
+### D3) Stormwater/Outfalls/Oil-Water Separators
+- Separator inspected (date): November 5, 2025 [✓] Sludge/oil removed per schedule [✓]
+- Outfall sheen observed? [X] If yes, describe: N/A
+- Booms/silt traps installed and intact [✓]
+**Actions:** None
+
+### D4) Waste Management
+- Segregation (general/recyclable/hazardous) [✓]
+- Hazardous waste in closed, labeled containers [✓]
+- Manifests complete and available [✓]
+- Licensed hauler details verified [✓]
+**Actions:** None
+
+### D5) PPE Compliance
+- PPE matrix displayed [✓] PPE available in correct sizes (including women’s) [✓]
+- Observed compliance rate >95% [✓] Fit issues logged/resolved [✓]
+**Actions:** None
+
+### D6) Permit-to-Work (PTW) Audit
+**Permit ID:** PTW-IKD-011; **Task:** Hot Work; **Location:** Yard A; **Supervisor:** Shift Lead
+- Validity and signatures [✓]
+- JSA attached and specific to task [✓]
+- Controls in place (gas test, LOTO, barricades, rescue plan) [✓]
+- Toolbox talk conducted and documented [✓]
+- Close-out and hand-back completed [✓]
+**Non-conformances/actions:** None
+
+### D7) JSA Quality Review
+**Task:** Lifting Operations; **JSA Date:** November 8, 2025; **Author:** Supervisor; **Reviewer:** HSE
+- Task steps detailed [✓] Hazards identified per step [✓] Controls specific [✓]
+- Residual risk acceptable [✓] Sign-offs present [✓]
+**Improvement notes:** None
+
+### D8) LOTO Audit
+- Energy isolation points identified/tagged [✓]
+- Locks/tags issued and controlled [✓]
+- Try-out/test for zero energy [✓]
+- Group LOTO procedures applied [✓]
+**Actions:** None
+
+### D9) Working at Height (WAH)
+- Permit [✓] Harness inspection [✓] Anchorage certified [✓] Fall arrest plan [✓]
+- Rescue plan and gear available [✓]
+**Actions:** None
+
+### D10) Confined Space Entry
+- Permit [✓] Atmospheric testing log [✓] Attendant present [✓] Rescue plan [✓]
+- Ventilation in place [✓]
+**Actions:** None
+
+### D11) Lifting Operations
+- Lift plan and SWL confirmed [✓] Pre-use inspections [✓] Certified slings/shackles [✓]
+- Exclusion zone enforced [✓] Trained rigger/signalman [✓]
+**Actions:** None
+
+---
+
+## Annex E: Spill Prevention, Control and Countermeasure (SPCC) Templates
+
+### E1) Spill Log (example entry)
+**Date/Time:** November 12, 2025, 09:30
+**Location:** Fueling area, Yard A
+**Material:** Diesel; **Estimated qty:** <5 L
+**Cause:** Hose drip during disconnect
+**Immediate actions:** Absorbent pads deployed; contaminated pads bagged; area cleaned
+**Reported to:** HSE Manager; **Internal reference:** SPILL-IKD-001
+**Photos/ref:** Stored in HSE drive
+
+### E2) Spill Incident Report (Initial)
+**Incident ID:** SPILL-IKD-001
+**Discovered:** November 12, 2025, 09:30
+**Material spilled:** Diesel; **Estimated volume:** <5 L
+**Source/equipment:** Hose; **Spill to water:** No
+**Containment deployed:** Pads and drip tray
+**Injuries:** No; **Property damage:** No; **Wildlife affected:** No
+**Notifications:** Internal record only (below threshold)
+**Root cause (initial):** Residual fuel in hose; prevention: Allow drain-back; cap before disconnect
+**Follow-up actions:** Toolbox refresher; check hose quick-connects
+
+### E3) Monthly SPCC Inspection
+**Inventory:** All kits complete; Booms intact; **Training/drills:** Last drill Oct 2025; Next drill Jan 2026
+**Actions:** Replace 6 expired absorbent socks (ordered)
+
+---
+
+## Annex F: Waste Management Templates
+
+### F1) Waste Tracking Log (November 2025)
+- 02/11/2025 | General waste | 1,200 kg | Central bay | Licensed Hauler A | Landfill | MAN-IKD-001 | Segregation good
+- 08/11/2025 | Scrap metal | 800 kg | Recycling bay | Recycler B | Recycling | MANIKD-002 | Revenue captured
+- 10/11/2025 | Oily rags/filters | 120 kg | Haz store | Hauler C | Hazardous facility | MAN-IKD-003 | Properly labeled
+
+### F2) Hazardous Waste Manifest (Internal)
+**Generator:** GK & A – Ikorodu; **Contact:** HSE Manager; **Waste:** Oily rags; **Qty:** 120 kg;
+**Container:** Drums; **Pickup:** 10/11/2025; **Hauler:** Licensed; **Receiver:** Licensed facility
+
+### F3) Contractor Waste Vendor Audit
+License valid; Facility tour completed; Records and manifests audited; Nonconformances: None; Actions: Maintain surveillance every 6 months
+
+---
+
+## Annex G: Traffic and Navigation Safety Templates
+
+### G1) Vehicle/Equipment Inspection (Daily)
+**Unit ID:** FORKLIFT-03; **Type:** Forklift; **Operator:** Assigned; **Date:** November 12, 2025; **Shift:** Day
+- Brakes [✓] Lights [✓] Horn/Alarm [✓] Tires [✓] Seat belt [✓] Fire ext [✓]
+- Reversing alarm [✓] Mirrors/Cameras [✓] Fluid leaks [X] (minor hydraulic seep – fixed)
+**Defects noted/actions:** Tightened fitting; cleaned residue
+
+### G2) Driver Competency & Authorization Log
+**Name:** On file; **License #:** Valid; **Expiry:** 2026; **Training completed:** Induction and forklift refresher (Oct 2025)
+**Authorized equipment:** Forklift, reach stacker (as applicable)
+**Restrictions/Notes:** None
+**Supervisor sign/date:** Shift Lead/Nov 12, 2025
+
+### G3) Vessel Movement Log (Terminal)
+**Date:** November 11, 2025; **Barge:** IKD-12; **Berth:** B; **ETA:** 08:00; **ETD:** 16:00;
+**Weather/Tide:** Fair/Falling; **Incidents/near misses:** None; **Coordinator sign:** Marine Coordinator
+
+### G4) Traffic Risk Assessment (Task/Area)
+**Task/Area:** Gatehouse approach
+**Assessor:** HSE Supervisor; **Date:** November 9, 2025
+**Hazards:** Pedestrian-vehicle interaction; queueing trucks
+**Controls:** Speed bumps; signage; spotter at peak hours; pedestrian zebra crossing
+**Residual risk:** Low; **Actions/Owner/Due date:** Install second speed bump/Site Manager/Dec 15, 2025
+
+---
+
+## Annex H: Emergency Preparedness & Response Templates
+
+### H1) Emergency Contact List
+**Internal**
+- Incident Commander: Site Manager (duty roster); Mobile: Available via switchboard
+- HSE Manager: +234 810 862 7165
+- ERT Lead (female): Duty roster (internal extension)
+**External**
+- National Emergency: 112; Lagos Emergency: 767
+- NPA Ikorodu Liaison: Via NPA terminal switchboard
+- NIMASA/NOSDRA/Fire/Police/Hospital: Access via 112 dispatch and official channels
+**Last update:** November 12, 2025; **Owner:** HSE Manager; **Review frequency:** Monthly
+
+### H2) Call-Down Tree
+Discoverer → Supervisor → Incident Commander → HSE Manager → ERT → External agencies
+
+### H3) Muster Roll Call Sheet
+**Date/Time:** Prepared daily; **Location:** Assembly Point A; **Incident type:** Any
+**Assembly point:** Main Yard; **Roll caller:** Shift Supervisor
+Employee/Contractor | Present (Y/N) | Time confirmed | Notes
+
+### H4) Initial Incident Report (All Emergencies)
+**Incident ID:** Auto-assigned; **Type:** Fire/Medical/Spill/Security/Other
+**Date/Time:** Record; **Location:** Record; **Reported by:** Record; **Contact:** Record
+Brief description; Immediate actions; Injuries/fatalities; External notified;
+Escalation level; Photos
+
+### H5) After-Action Review (AAR) – Drill/Incident
+**Event:** ERP Drill; **Date:** January 2026; **Facilitator:** HSE Manager
+**Objectives:** Contain spill <10 minutes; Complete evacuation <7 minutes
+What went well; What needs improvement; Corrective actions; Verification and closure
+
+---
+
+## Annex I: Chance Find Procedure Form
+
+**Date/Time:** Record at discovery
+**Discoverer:** Record; **Location (GPS):** Record
+**Description of find:** Record
+**Work stopped at:** Record; **Area cordoned (Y/N):** Record
+**Photos/Sketch:** Attach
+**Notified authority/heritage expert:** Record
+**Instructions received:** Record
+**Work restart authorization (name/date):** Record
+
+---
+
+## Annex J: Gender Action Plan (GAP) and GBV/SEA Protocol
+
+- **Female HSE leaders:** Baseline 10%; Target 40% by April 2027
+- **Female Champion per shift:** Achieved (≥1/shift)
+- **Women trained/certified:** Target 10 NEBOSH/OSHA certifications by Dec 2026
+- **PPE fit coverage for women:** 100% by December 2025
+- **GBV/SEA training:** 100% of staff and contractors at induction + annual refresher
+- **Confidential intake:** Available via female focal point (HSE/HR); records secured
+- **Facilities:** Separate sanitation/locker rooms; adequate lighting; privacy ensured
+- **Monitoring:** Quarterly GAP tracker; report to Steering Committee
+
+---
+
+## Annex K: Monitoring Schedule and Calendar
+
+- **Air:** Quarterly (Jan/Apr/Jul/Oct)
+- **Noise:** Quarterly (day/night)
+- **Water:** Quarterly (stormwater/lagoon points)
+- **Waste audits:** Quarterly (end of each quarter)
+- **PPE/Housekeeping:** Weekly (Fridays)
+- **PTW/LOTO audits:** Weekly (Wednesdays)
+- **ERT drills:** Quarterly (Jan/Apr/Jul/Oct); Multi-agency: April and October
+- **Stakeholder engagement:** Quarterly public meeting months (Mar/Jun/Sep/Dec)
+- **ESMP report:** Quarterly (within 15 days of quarter-end)
+- **Management review:** Annual (November)
+
+**Monthly Calendar (Text Grid)**
+Month: Rolling 12-month plan maintained by HSE Manager
+Week 1/2/3/4: Populate activities; Notes: Record changes
+
+---
+
+## Annex L: KPI Data Dictionary and Monthly Report
+
+### Data Dictionary
+- **LTIR:** Lost time injuries x 200,000 / hours worked (HR timesheets + incident portal)
+- **Near-miss count:** All near-misses reported (Incident portal)
+- **Audit close-out rate:** Corrective actions closed within 30 days / total actions
+- **Female HSE leaders %:** # female supervisors/leads in HSE / total HSE leaders
+- **Waste recycled %:** Recycled mass / total waste
+- **Training completion %:** Staff with required training / total required
+
+### Monthly HSE-ESMP Report (November 2025)
+- **Summary:** ESIA mobilization; induction completed for new hires; traffic calming installed; zero recordable incidents
+- **KPIs:** Near-misses 6; Audit close-out 100%; Training completion (induction) 95%; Female HSE leaders 18% (up from 10%)
+- **Incidents:** None recordable
+- **Engagement:** One meeting with community reps
+- **Regulatory:** No visits; ESIA submission logged
+
+---
+
+## Annex M: Regulatory Compliance Register
+
+**Law/Regulation** | **Requirement** | **Applicability** | **Responsible** | **Evidence/Record** | **Status** | **Next review**
+---|---|---|---|---|---|---
+EIA Act | ESIA approval | Yes | HSE Manager | FMEnv submission receipt | In progress | Feb 2026
+NOSDRA | Spill reporting within 24h | Yes | HSE Manager | SPCC plan, logs | Compliant | Monthly
+LASEPA | Noise/effluent standards | Yes | HSE Manager | Monitoring plan/data | Active monitoring | Quarterly
+NPA | Port rules | Yes | Site Manager | Compliance audits | Compliant | Quarterly
+NIMASA | Marine safety | Yes | Marine Coordinator | Vessel certs | Compliant | Annual
+
+---
+
+## Annex N: Risk Register Template (Environmental & Social)
+
+**ID:** R-001
+**Aspect:** Diesel emissions
+**Impact:** Air quality
+**Phase:** Operations
+**Cause:** Combustion
+**Existing controls:** Maintenance; anti-idling
+**Consequence:** 2; **Likelihood:** 2; **Risk score:** 4 (Low)
+**Additional mitigation:** Explore retrofits/electrification
+**Owner:** Maintenance Lead; **Due date:** Ongoing; **Residual risk:** Low; **Review date:** Annual
+
+**ID:** R-002
+**Aspect:** Refueling
+**Impact:** Water/soil contamination
+**Phase:** Operations
+**Cause:** Hose failure/spill
+**Existing controls:** Bunds; drip trays; booms
+**Consequence:** 3; **Likelihood:** 2; **Risk score:** 6 (Low)
+**Additional mitigation:** Quick-connect upgrades
+**Owner:** Site Manager; **Due:** Q1 2026; **Residual:** Low; **Review:** Quarterly
+
+**ID:** R-003
+**Aspect:** Traffic near gate
+**Impact:** Pedestrian safety
+**Phase:** Operations
+**Cause:** Speeding/queueing
+**Existing controls:** Bumps; signage; spotter
+**Consequence:** 3; **Likelihood:** 2; **Risk score:** 6 (Low)
+**Additional mitigation:** Second speed bump
+**Owner:** Site Manager; **Due:** Dec 15, 2025; **Residual:** Low; **Review:** Monthly
+
+**ID:** R-004
+**Aspect:** Noise
+**Impact:** Nuisance
+**Phase:** Operations
+**Cause:** Equipment/genset
+**Existing controls:** Mufflers; scheduling
+**Consequence:** 2; **Likelihood:** 2; **Risk score:** 4 (Low)
+**Additional mitigation:** Genset enclosure
+**Owner:** Maintenance; **Due:** Jan 31, 2026; **Residual:** Low; **Review:** Quarterly
+
+**ID:** R-005
+**Aspect:** GBV/SEA risk
+**Impact:** Social harm
+**Phase:** Operations
+**Cause:** Male-dominated workplace risks
+**Existing controls:** Code of Conduct; training; confidential GRM
+**Consequence:** 3; **Likelihood:** 1; **Risk score:** 3 (Low)
+**Additional mitigation:** Ongoing training and monitoring
+**Owner:** HR/HSE; **Due:** Ongoing; **Residual:** Low; **Review:** Quarterly
+
+---
+
+## Annex O: Training Records and Competency
+
+### Training Record
+**Name:** On file; **Role:** On file; **Dept:** On file; **Supervisor:** On file
+**Induction:** Date Nov 2025 Pass [Yes]
+**Refresher:** Date scheduled Q1 2026
+**Specialist training:** Confined space; WAH; Lifting; LOTO; Spill response
+**NEBOSH/OSHA:** Cohort planning for 2026 (10 slots)
+**On-the-job competency sign-off:** Supervisor/HSE; **Gaps/plan:** Logged in LMS
+
+### Toolbox Talk Record
+**Topic:** Spill Prevention; **Date:** Nov 2025; **Facilitator:** Female HSE Champion; **Shift:** Day
+**Attendees:** On file; **Key points/actions:** Proper hose disconnect; immediate reporting
+
+---
+
+## Annex P: Permit-to-Work Forms (Lite Text Versions)
+
+### P1) Hot Work Permit (Summary)
+**Permit #:** PTW-HW-___; **Location:** Yard/Workshop; **Date/Time:** Shift hours
+**Task:** Cutting/Welding; **Supervisor:** Shift Lead; **Issuer:** PTW Authority
+**Precautions:**
+[✓] Area cleared/combustibles removed [✓] Fire watch assigned [✓] Fire extinguisher present
+[✓] Gas test (if applicable) [✓] Ventilation [✓] Barricade/signage [✓] PPE
+**Authorized signatures:** Issuer/Holder/Fire watch
+**Hand-back:** End of task; **Area inspected cold (30 min):** Yes; **Sign-off completed**
+
+### P2) Confined Space Entry Permit (Summary)
+**Space ID:** As labeled; **Task:** Maintenance; **Supervisor:** Named; **Attendant:** Named
+**Atmospheric tests:** O2%/LEL%/H2S ppm/CO ppm recorded before entry and periodically
+**Controls:** Isolation/LOTO; Ventilation; Rescue plan; Communication; PPE
+**Entrants:** Listed
+**Authorized signatures:** Issuer/Supervisor/Attendant; **Close-out:** All clear
+
+### P3) Electrical Work Permit (Summary)
+**Circuit/Equipment:** Identified; **Isolation points:** Tagged/locked
+**LOTO applied by:** Qualified person; **Verified by:** Supervisor; **Test for zero energy:** Yes
+**Controls:** Insulated tools; Barriers; Qualified persons; GFCI/RCD where applicable
+**Signatures:** Issuer/Holder/Close-out
+
+### P4) Working at Height Permit (Summary)
+**Location:** Identified; **Height:** Measured
+**Access:** Scaffold/MEWP/Ladder (tag current)
+**Fall protection:** Harness/Lanyard/Anchor rated; Rescue plan available
+**Signatures:** Issuer/Holder/Spotter/Close-out
+
+---
+
+## Annex Q: Corrective Action Register
+
+**CAR-001**
+**Source:** Audit; **Date raised:** Nov 5, 2025
+**Description:** Install speed bumps at gate
+**Owner:** Site Manager; **Priority:** High; **Due date:** Dec 15, 2025
+**Status:** In progress; **Closure evidence:** Work order; **Verification:** HSE/Dec 2025
+
+**CAR-002**
+**Source:** Inspection; **Date raised:** Nov 10, 2025
+**Description:** Update spill kit inventory
+**Owner:** HSE; **Priority:** Medium; **Due date:** Nov 20, 2025
+**Status:** Open; **Closure evidence:** Inventory list; **Verification:** HSE
+
+**CAR-003**
+**Source:** Noise survey; **Date raised:** Nov 8, 2025
+**Description:** Acoustic enclosure for Genset-1
+**Owner:** Maintenance; **Priority:** Medium; **Due date:** Jan 31, 2026
+**Status:** Open; **Closure evidence:** Photos; **Verification:** HSE
+
+---
+
+## Annex R: Document Control and Distribution
+
+### Document Register
+- **ESIA v1.0** – **Owner:** HSE Manager – **Effective:** Nov 1, 2025 – **Next review:** Nov 1, 2026 – **Distribution:** Board, MD/CEO, Ops, HSE, HR, Finance, Site Manager (Ikorodu), Contractors, Safety Steering Committee
+
+### Controlled Copy Distribution List
+- Recipients recorded by HSE; Format: PDF/Hardcopy; Copy numbers assigned; Acknowledgement collected
+
+---
+
+## Annex S: Photolog and Mapping Placeholders
+
+### Photolog
+```
+- Screenshot 2025-11-12 at 10.00.58.png: Site conditions and facility layout
+- Screenshot 2025-11-12 at 09.59.11.png: Environmental monitoring equipment and procedures
+- Screenshot 2025-11-12 at 09.58.59.png: Safety measures and personnel protective equipment
+- Screenshot 2025-11-12 at 09.58.38.png: Waste management and spill prevention measures
+```
+
+### Map References
+- Site layout (Ikorodu Terminal) and sampling locations (Air/Noise/Water) maintained in HSE GIS folder; filenames recorded in document register
+
+---
+
+## Approval Page
+
+- **Prepared by:** HSE Manager, GK & A Logistics Services Limited – Signed – November 1, 2025
+- **Reviewed by:** Senior HSE Manager (Female) – Signed – November 1, 2025
+- **Approved by:** Mrs. Omobola Abiru, Managing Director/CEO – Signed – November 1, 2025

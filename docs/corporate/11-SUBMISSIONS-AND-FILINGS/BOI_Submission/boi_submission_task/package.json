@@ -1,0 +1,18 @@
+{
+  "name": "boi_submission_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^11.12.0",
+    "mermaid": "^11.12.1",
+    "puppeteer": "^24.28.0"
+  }
+}

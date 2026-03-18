@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litigation Audit Report - Project Compass – Ecobank Dashboard</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@600;700;800&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cover-container {
+            width: 210mm;
+            height: 297mm;
+            background: white;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            border-radius: 2px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin: 20px 0;
+        }
+        
+        .law-firm-logo {
+            width: 100px;
+            height: auto;
+        }
+        
+        .client-logo {
+            width: 100px;
+            height: auto;
+        }
+        
+        .company-name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .document-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            font-weight: 800;
+            color: #009739; /* Ecobank green */
+            margin: 15px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .document-subtitle {
+            font-size: 16px;
+            color: #2c3e50; /* Dark gray */
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        
+        .hero-image {
+            width: 100%;
+            height: 300px;
+            background: url('file:///Users/mac/Downloads/ecobank_branch.jpg') center/cover no-repeat;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-image::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(44, 62, 80, 0.7) 0%, rgba(44, 62, 80, 0.3) 100%);
+            border-radius: 8px;
+        }
+        
+        .document-info {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .info-box {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            flex: 1;
+            margin: 0 10px;
+            min-width: 200px;
+            border-left: 4px solid #009739; /* Ecobank green */
+        }
+        
+        .info-box h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .info-box p {
+            color: #7f8c8d;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: auto;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+        }
+        
+        .footer p {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        
+        .project-id {
+            background: #009739; /* Ecobank green */
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: 500;
+            display: inline-block;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+        
+        .watermark {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-30deg);
+            font-size: 80px;
+            font-weight: 800;
+            color: rgba(0, 151, 57, 0.05); /* Ecobank green transparent */
+            pointer-events: none;
+            z-index: 1;
+            white-space: nowrap;
+        }
+        
+        .facility-info {
+            background: rgba(0, 151, 57, 0.1); /* Ecobank green light */
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .facility-info p {
+            color: #2c3e50;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        
+        .contact-info {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            margin: 20px 0;
+            border-left: 4px solid #2c3e50;
+        }
+        
+        .contact-info h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .contact-details {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        
+        .contact-label {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-right: 5px;
+            font-size: 14px;
+        }
+        
+        .contact-value {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .cover-container {
+                box-shadow: none;
+                border: none;
+            }
+            
+            .hero-image::after {
+                background: none;
+            }
+            
+            .info-box,
+            .contact-info {
+                background: white;
+                box-shadow: none;
+            }
+            
+            .facility-info {
+                background: #f8fff9; /* Very light green */
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cover-container">
+        <div class="watermark">LITIGATION AUDIT REPORT</div>
+        
+        <div class="header">
+            <div class="project-id">Project: Compass</div>
+            <h2 class="document-title">Litigation Audit Report</h2>
+            <div class="logo-container">
+                <img src="file:///Users/mac/Documents/GitHub/jee-ecobank-compass/public/law-firm-logo/jackson etti and edu logo.png" alt="Jackson Etti & Edu Logo" class="law-firm-logo">
+                <img src="file:///Users/mac/Documents/GitHub/jee-ecobank-compass/public/client-logo/Ecobank_Logo.svg.png" alt="Ecobank Logo" class="client-logo">
+            </div>
+            <h3 class="document-subtitle">Project Compass – Ecobank Litigation Audit Dashboard</h3>
+        </div>
+        
+        <div class="hero-image"></div>
+        
+        <div class="facility-info">
+            <p>Prepared by: Jackson, Etti & Edu</p>
+            <p>Date: November 2025</p>
+        </div>
+        
+        <div class="document-info">
+            <div class="info-box">
+                <h3>PREPARED FOR</h3>
+                <p>Ecobank Nigeria Limited Legal, Risk, Compliance, Remedial, and Executive Management Teams</p>
+            </div>
+            <div class="info-box">
+                <h3>DATE</h3>
+                <p>November 2025</p>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <h3>Jackson, Etti & Edu</h3>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <span class="contact-label">Address:</span>
+                    <span class="contact-value">3-5 Sinari Daranijo Street, Off Ajose Adeogun, Victoria Island, Lagos, Nigeria</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Email:</span>
+                    <span class="contact-value">jee@jee.africa</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Phone:</span>
+                    <span class="contact-value">+234 (1) 462 6841/3, (1) 2806989</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
