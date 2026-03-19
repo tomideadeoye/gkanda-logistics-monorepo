@@ -73,3 +73,5 @@ docs/corporate/11-SUBMISSIONS-AND-FILINGS/BOI_Submission/
 docs/corporate/99-ARCHIVE/
 docs/corporate/media/
 *.pdf
+.vercel
+.env*.local
