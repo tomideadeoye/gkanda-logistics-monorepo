@@ -1,5 +1,4 @@
 {
-  "installCommand": "cd apps/website && npm install",
   "github": {
     "enabled": true,
     "autoJobCancelation": true
