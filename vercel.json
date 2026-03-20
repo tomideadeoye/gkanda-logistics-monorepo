@@ -1,6 +1,4 @@
 {
-  "buildCommand": "cd apps/website && npm run build:prod",
-  "outputDirectory": "apps/website/.next",
   "github": {
     "enabled": true,
     "autoJobCancelation": true
