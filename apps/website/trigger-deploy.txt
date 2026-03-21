@@ -1,1 +1,3 @@
 Deploying maritime site Sat Mar 21 23:34:11 WAT 2026
+
+# Trigger redeploy for legacy-peer-deps fix Sat Mar 21 23:40:22 WAT 2026
