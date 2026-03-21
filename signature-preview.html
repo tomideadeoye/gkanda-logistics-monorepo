@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omobola Abiru Signature Preview</title>
+    <style>
+        body { font-family: sans-serif; padding: 40px; background: #f4f7f9; }
+        .container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); max-width: 600px; margin: auto; }
+        .instructions { margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; color: #666; font-size: 14px; }
+        .copy-button { background: #E53E3E; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-weight: bold; margin-bottom: 20px; }
+        .copy-button:hover { background: #c53030; }
+        #signature { padding: 10px; border: 1px dashed #ccc; display: inline-block; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="instructions">
+            <strong>Orion Signature Preview</strong><br>
+            Copy the signature below and paste it into <strong>Zoho Mail Settings > Signatures</strong>.
+        </div>
+        
+        <button class="copy-button" onclick="copySignature()">Copy Signature</button>
+
+        <div id="signature">
+            <table cellpadding="0" cellspacing="0" border="0" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #333; line-height: 1.5; font-size: 14px;">
+                <tr>
+                    <!-- LOGO SECTION -->
+                    <td style="padding-right: 20px; vertical-align: top; border-right: 2px solid #E53E3E;">
+                        <img src="apps/website/public/gkaassets/gka-logo-cropped.png" alt="GK&A Logo" width="120" style="display: block; margin-bottom: 10px;">
+                    </td>
+                    
+                    <!-- INFO SECTION -->
+                    <td style="padding-left: 20px; vertical-align: top;">
+                        <div style="font-size: 18px; font-weight: bold; color: #E53E3E; margin-bottom: 2px;">Omobola Litan Abiru</div>
+                        <div style="font-size: 14px; font-weight: 500; color: #718096; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px;">Managing Director</div>
+                        
+                        <!-- COMPANIES -->
+                        <div style="margin-bottom: 12px; line-height: 1.2;">
+                            <div style="font-weight: bold; color: #2D3748; font-size: 13px;">GK&A Logistics Services Limited</div>
+                            <div style="font-weight: bold; color: #2D3748; font-size: 13px;">GK&A Terminal Harbour Limited</div>
+                            <div style="font-weight: bold; color: #2D3748; font-size: 13px;">GK&A Port Infrastructure PTE. LTD.</div>
+                        </div>
+
+                        <!-- CONTACT DETAILS -->
+                        <table cellpadding="0" cellspacing="0" border="0" style="font-size: 13px; color: #4A5568;">
+                            <tr>
+                                <td style="padding-bottom: 2px;">
+                                    <span style="color: #E53E3E; font-weight: bold;">T:</span> +234 810 862 7165 | +234 818 408 2911
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom: 2px;">
+                                    <span style="color: #E53E3E; font-weight: bold;">W:</span> <a href="https://wa.me/2347038341611" style="color: #38A169; text-decoration: none;">+234 703 834 1611 (WhatsApp)</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom: 2px;">
+                                    <span style="color: #E53E3E; font-weight: bold;">E:</span> <a href="mailto:mobolaabiru@gkaports.com" style="color: #000; text-decoration: none;">mobolaabiru@gkaports.com</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom: 2px;">
+                                    <span style="color: #E53E3E; font-weight: bold;">U:</span> <a href="http://www.gkaports.com" style="color: #000; text-decoration: none;">www.gkaports.com</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span style="color: #E53E3E; font-weight: bold;">L:</span> Lagos, Nigeria
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function copySignature() {
+            const range = document.createRange();
+            range.selectNode(document.getElementById('signature'));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+            try {
+                document.execCommand('copy');
+                alert('Signature copied to clipboard!');
+            } catch (err) {
+                alert('Oops, unable to copy. Please select the boxed area and copy manually.');
+            }
+            window.getSelection().removeAllRanges();
+        }
+    </script>
+</body>
+</html>
