@@ -43,7 +43,7 @@ const Spend: FC = () => {
   }, [isModalOpen]);
   return (
     <section className="bg-white dark:bg-darkmode overflow-hidden py-14">
-      <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
+      <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4">
         <div ref={ref}>
           <motion.div {...TopAnimation} className="text-center">
             <h2 className="md:text-35 sm:text-28 text-24 text-midnight_text font-semibold mb-5 dark:text-white">

@@ -5,7 +5,7 @@ const ContactInfo = () => {
   return (
     <>
       <section className="dark:bg-darkmode pt-8 pb-24">
-        <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
+        <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4">
           <div className="flex md:flex-row flex-col items-center justify-center md:gap-28 gap-8">
             <div className="flex sm:flex-row flex-col items-start sm:gap-8 gap-4">
               <div className="bg-heroBg dark:bg-search p-4 flex items-center justify-center rounded-full">

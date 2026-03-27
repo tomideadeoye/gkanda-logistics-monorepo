@@ -32,7 +32,7 @@ const Payment = () => {
     <section className="bg-white dark:bg-darkmode py-14">
       <div
         ref={ref}
-        className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4"
+        className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4"
       >
         <motion.div {...TopAnimation}>
           <div className="px-4 lg:px-12">

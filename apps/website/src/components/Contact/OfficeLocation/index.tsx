@@ -9,7 +9,7 @@ const Location = () => {
   return (
     <>
       <section className="bg-primary py-24">
-        <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
+        <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4">
             <div className="">
                 <div className="grid md:grid-cols-6 lg:grid-cols-9 grid-cols-1 gap-7 border-b border-solid border-white border-opacity-50 pb-11">
                     <div className="col-span-3">

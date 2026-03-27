@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <main className="pt-24 pb-16">
-      <div className="container mx-auto lg:max-w-(--breakpoint-xl) px-4">
+      <div className="container mx-auto lg:max-w-[73.125rem] px-4">
         {/* Hero Section */}
         <div className="text-center mb-16 pt-16">
           <h1 className="text-4xl md:text-5xl font-bold text-midnight_text mb-6">

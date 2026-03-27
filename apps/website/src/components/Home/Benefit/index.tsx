@@ -31,7 +31,7 @@ const Benefit = () => {
 
   return (
     <section className="bg-white dark:bg-darkmode py-14 overflow-x-hidden">
-      <div className="container lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4 mx-auto">
+      <div className="container lg:max-w-[73.125rem] md:max-w-[48rem] px-4 mx-auto">
         <div
           ref={ref}
           className="bg-white dark:bg-midnight_text bg-heroBg rounded-3xl md:py-20 py-10 2xl:pr-14 2xl:pl-20 sm:px-14 px-6"

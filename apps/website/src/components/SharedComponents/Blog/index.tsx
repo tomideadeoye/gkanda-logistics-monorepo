@@ -18,7 +18,7 @@ const Blog: React.FC = () => {
       className="flex overflow-x-hidden flex-wrap justify-center lg:py-24 py-16 lg:pb-40 pb-28 dark:bg-darkmode border-t border-border dark:border-dark_border -mb-24"
       id="blog"
     >
-      <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
+      <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4">
         <div className="flex items-baseline justify-between flex-wrap">
           <h2 className="sm:mb-11 mb-3 text-36 font-bold text-secondary dark:text-white">
             Latest blog & news

@@ -34,7 +34,7 @@ const Method = () => {
 
   return (
     <section className="bg-white dark:bg-darkmode overflow-hidden py-14">
-      <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
+      <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4">
         <div
           ref={ref}
           className="bg-white dark:bg-midnight_text bg-heroBg rounded-3xl py-16 sm:px-20 px-5"

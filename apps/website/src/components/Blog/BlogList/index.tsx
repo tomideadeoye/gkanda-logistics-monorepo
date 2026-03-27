@@ -17,7 +17,7 @@ const BlogList: React.FC = () => {
       className="flex flex-wrap justify-center md:pt-20 pt-8 lg:pb-24 pb-10"
       id="blog"
     >
-      <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
+      <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4">
         <div className="lg:grid grid-cols-12 gap-x-12 gap-y-20">
           {posts.map((blog, i) => (
             <div key={i} className="w-full md:col-span-6 col-span-12">

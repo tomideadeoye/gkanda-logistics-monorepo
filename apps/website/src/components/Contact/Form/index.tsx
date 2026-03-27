@@ -6,7 +6,7 @@ const ContactForm = () => {
   return (
     <>
       <section className="dark:bg-darkmode pb-24">
-        <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
+        <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4">
           <div className="grid md:grid-cols-12 grid-cols-1 gap-8">
             <div className="col-span-6">
               <h2 className="max-w-72 text-40 font-bold mb-9">

@@ -77,7 +77,7 @@ const Pricing = () => {
       <section className="bg-white dark:bg-darkmode overflow-hidden py-14">
         <div
           ref={ref}
-          className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4 "
+          className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4 "
         >
           <motion.div {...TopAnimation}>
             <h2 className="dark:text-white text-midnight_text text-center md:text-35 sm:text-28 text-24">

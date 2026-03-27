@@ -23,7 +23,7 @@ const Mobile = () => {
 
   return (
     <section className="bg-white dark:bg-darkmode overflow-x-hidden py-14">
-      <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
+      <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4">
         <div ref={ref} className="grid md:grid-cols-12 items-center lg:gap-12 gap-6">
           <motion.div {...leftAnimation} className="lg:col-span-6 col-span-12">
             <h2 className="lg:text-35 text-24 text-midnight_text font-semibold dark:text-white leading-loose">

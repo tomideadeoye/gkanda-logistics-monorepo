@@ -6,7 +6,7 @@ import { footerLinks } from "@/app/api/data";
 const Footer = () => {
   return (
     <footer className="pt-8 mt-14 bg-primary relative after:content-[''] after:absolute after:bg-[url('/images/footer/bgline.png')] after:bg-no-repeat after:w-52 after:h-24 after:right-0 after:top-28 xl:after:block after:hidden before:content-[''] before:absolute before:inset-0 before:bg-[url('/gkaassets/bernd-dittrich-Xk1IfNnEhRA-unsplash-scaled.jpg')] before:bg-cover before:bg-center before:opacity-30">
-      <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-2">
+      <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-2">
         <div className="flex lg:items-center justify-between lg:flex-row flex-col border-b border-dark_border pb-14 mb-16 ">
           <div className="flex sm:flex-nowrap flex-wrap gap-6">
             <div className="flex items-center text-white text-16">

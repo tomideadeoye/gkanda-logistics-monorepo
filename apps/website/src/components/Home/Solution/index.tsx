@@ -5,7 +5,7 @@ import Image from "next/image";
 const Solution = () => {
   return (
     <section className="bg-white dark:bg-darkmode overflow-x-hidden py-14">
-      <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
+      <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] px-4">
         <div className="bg-white bg-heroBg dark:bg-midnight_text rounded-3xl lg:px-16 px-4 py-12">
           <div className="grid lg:grid-cols-2 items-center gap-12">
             <div>

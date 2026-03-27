@@ -114,7 +114,7 @@ const Header: React.FC = () => {
           : "shadow-none bg-darkheader"
       }`}
     >
-      <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) flex justify-between lg:items-center xl:gap-16 lg:gap-8 px-4 py-6">
+      <div className="container mx-auto lg:max-w-[73.125rem] md:max-w-[48rem] flex justify-between lg:items-center xl:gap-16 lg:gap-8 px-4 py-6">
         <div className="">
           <Logo />
         </div>
