@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const vCardData = `BEGIN:VCARD
 VERSION:3.0
-N:Abiru;Omobola;;;
-FN:Omobola Abiru
+N:Abiru;Omobola;Litan;;
+FN:Omobola Litan Abiru
 TITLE:Managing Director
 ORG:GK&A Logistics Services Ltd
 ORG;TYPE=2:GK&A Terminal Harbour Limited
@@ -71,7 +71,7 @@ export default function MDigitalCard() {
           <div className="px-8 py-10">
             <div className="text-center mb-8">
               <div className="w-28 h-28 mx-auto bg-primary rounded-full flex items-center justify-center mb-4">
-                <span className="text-5xl text-white font-bold">OA</span>
+                <span className="text-4xl text-white font-bold">OLA</span>
               </div>
               <h1 className="text-3xl font-bold text-gray-900 mb-2">
                 Omobola Litan Abiru
@@ -193,15 +193,21 @@ export default function MDigitalCard() {
 
             {/* Footer */}
             <div className="mt-8 text-center text-sm text-gray-500">
-              <p>GK&A Logistics Services Limited</p>
-              <p>GK&A Terminal Harbour Limited</p>
-              <p>GK&A Port Infrastructure PTE. LTD.</p>
-              <p className="mt-2">Lagos, Nigeria</p>
-              <p className="mt-2">
-                <Link href="/" className="text-primary hover:underline">
-                  www.gkaports.com
-                </Link>
+              <p className="text-gray-600 leading-relaxed mb-4 max-w-md mx-auto">
+                Nigeria&apos;s premier maritime logistics partner at NPA Lighter Terminal, Ikorodu.
+                Connecting Nigerian businesses to global markets through world-class port operations and strategic logistics solutions.
               </p>
+              <div className="border-t border-gray-200 pt-4">
+                <p>GK&A Logistics Services Limited</p>
+                <p>GK&A Terminal Harbour Limited</p>
+                <p>GK&A Port Infrastructure PTE. LTD.</p>
+                <p className="mt-2">Lagos, Nigeria</p>
+                <p className="mt-2">
+                  <Link href="/" className="text-primary hover:underline">
+                    www.gkaports.com
+                  </Link>
+                </p>
+              </div>
             </div>
           </div>
         </div>
