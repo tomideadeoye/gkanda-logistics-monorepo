@@ -74,37 +74,56 @@ export default function MDigitalCard() {
                 <span className="text-5xl text-white font-bold">OA</span>
               </div>
               <h1 className="text-3xl font-bold text-gray-900 mb-2">
-                Omobola Abiru
+                Omobola Litan Abiru
               </h1>
               <p className="text-xl text-primary font-semibold">
                 Managing Director
               </p>
-              <p className="text-gray-500 mt-1">
-                GK&A Logistics Services Ltd
-              </p>
+              <div className="text-gray-500 mt-2 text-sm">
+                <p className="font-semibold text-gray-700">GK&A Logistics Services Limited</p>
+                <p>GK&A Terminal Harbour Limited</p>
+                <p>GK&A Port Infrastructure PTE. LTD.</p>
+              </div>
             </div>
 
-            {/* Company Info */}
+            {/* Company Tagline */}
             <div className="bg-slate-50 rounded-xl p-6 mb-8 text-center">
-              <p className="text-gray-700 leading-relaxed">
-                Nigeria&apos;s premier maritime logistics partner at{" "}
-                <span className="font-semibold text-primary">NPA Lighter Terminal, Ikorodu</span>.
-                Connecting Nigerian businesses to global markets through world-class port operations and strategic logistics solutions.
+              <p className="text-gray-700 leading-relaxed font-medium">
+                Your Cargo. Her Gateway.{" "}
+                <span className="text-primary font-semibold">Strategic. Connected. Trusted.</span>
               </p>
             </div>
 
-            {/* Contact Buttons */}
-            <div className="space-y-4 mb-8">
-              <a
-                href="tel:+2347038341611"
-                className="flex items-center justify-center gap-3 bg-primary text-white py-4 px-6 rounded-xl hover:bg-blue-700 transition-all font-semibold"
-              >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                Call: +234 703 834 1611
-              </a>
+            {/* Contact Details */}
+            <div className="bg-slate-50 rounded-xl p-6 mb-8 space-y-3">
+              <div className="flex items-center gap-3">
+                <span className="text-primary font-semibold w-8">T:</span>
+                <a href="tel:+2348108627165" className="text-gray-700 hover:text-primary">+234 810 862 7165</a>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-primary font-semibold w-8">W:</span>
+                <a href="https://wa.me/2347038341611" className="text-gray-700 hover:text-primary">+234 703 834 1611 (WhatsApp)</a>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-primary font-semibold w-8">M:</span>
+                <a href="tel:+2348184082911" className="text-gray-700 hover:text-primary">+234 818 408 2911</a>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-primary font-semibold w-8">E:</span>
+                <a href="mailto:mobolaabiru@gkaports.com" className="text-gray-700 hover:text-primary">mobolaabiru@gkaports.com</a>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-primary font-semibold w-8">W:</span>
+                <a href="https://www.gkaports.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-primary">www.gkaports.com</a>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-primary font-semibold w-8">📍</span>
+                <span className="text-gray-700">Lagos, Nigeria</span>
+              </div>
+            </div>
 
+            {/* Action Buttons */}
+            <div className="space-y-4 mb-8">
               <a
                 href="https://wa.me/2347038341611"
                 className="flex items-center justify-center gap-3 bg-green-500 text-white py-4 px-6 rounded-xl hover:bg-green-600 transition-all font-semibold"
