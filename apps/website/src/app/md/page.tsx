@@ -193,8 +193,10 @@ export default function MDigitalCard() {
 
             {/* Footer */}
             <div className="mt-8 text-center text-sm text-gray-500">
-              <p>GK&A Logistics Services Ltd</p>
-              <p>NPA Lighter Terminal, Ikorodu, Lagos</p>
+              <p>GK&A Logistics Services Limited</p>
+              <p>GK&A Terminal Harbour Limited</p>
+              <p>GK&A Port Infrastructure PTE. LTD.</p>
+              <p className="mt-2">Lagos, Nigeria</p>
               <p className="mt-2">
                 <Link href="/" className="text-primary hover:underline">
                   www.gkaports.com
