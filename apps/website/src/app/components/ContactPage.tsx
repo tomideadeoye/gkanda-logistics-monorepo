@@ -18,7 +18,8 @@ export default function ContactPage({
   name,
   title,
   companies = [
-    "GK&A LOGISTICS SERVICES LIMITED",
+    "GK&A TERMINAL - NPA IKORODU LIGHTER TERMINAL (ILT) LAGOS, NIGERIA",
+    "GK&A Logistics Services Limited",
     "GK&A Terminal Harbour Limited",
     "GK&A Port Infrastructure PTE. LTD.",
   ],

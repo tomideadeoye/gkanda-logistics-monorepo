@@ -30,7 +30,8 @@ export default function MQrCodeDetails() {
 
           {/* Company Section */}
           <div className="space-y-1 text-xl font-bold">
-            <p>GK&A LOGISTICS SERVICES LIMITED</p>
+            <p>GK&A TERMINAL - NPA IKORODU LIGHTER TERMINAL (ILT) LAGOS, NIGERIA</p>
+            <p>GK&A Logistics Services Limited</p>
             <p>GK&A Terminal Harbour Limited</p>
             <p>GK&A Port Infrastructure PTE. LTD.</p>
           </div>
